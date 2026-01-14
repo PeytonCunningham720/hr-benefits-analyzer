@@ -1,0 +1,151 @@
+employee_id,medical_plan,dental_plan,vision_plan,401k_enrolled,401k_contribution_pct,life_insurance_multiple,medical_monthly_cost,dental_monthly_cost,vision_monthly_cost,total_monthly_cost,annual_benefits_cost
+EMP0001,PPO Premium,Dental Basic,Vision Premium,True,5,4,650,45,25,720,8640
+EMP0002,HDHP with HSA,Dental Basic,Vision Premium,True,5,3,300,45,25,370,4440
+EMP0003,PPO Standard,Dental Plus,Waived,True,5,1,450,75,0,525,6300
+EMP0004,PPO Premium,Dental Basic,Waived,False,0,1,650,45,0,695,8340
+EMP0005,Waived,Dental Basic,Vision Basic,True,8,1,0,45,15,60,720
+EMP0006,PPO Standard,Dental Plus,Vision Basic,True,6,5,450,75,15,540,6480
+EMP0007,Waived,Waived,Vision Basic,True,4,5,0,0,15,15,180
+EMP0008,PPO Standard,Waived,Vision Basic,True,5,4,450,0,15,465,5580
+EMP0009,PPO Premium,Dental Basic,Waived,True,5,2,650,45,0,695,8340
+EMP0010,PPO Standard,Dental Basic,Vision Basic,True,7,2,450,45,15,510,6120
+EMP0011,PPO Standard,Dental Plus,Vision Premium,False,0,1,450,75,25,550,6600
+EMP0012,HDHP with HSA,Dental Plus,Vision Premium,True,5,1,300,75,25,400,4800
+EMP0013,PPO Standard,Dental Plus,Vision Basic,True,7,1,450,75,15,540,6480
+EMP0014,Waived,Dental Basic,Waived,True,6,5,0,45,0,45,540
+EMP0015,Waived,Dental Plus,Vision Basic,True,3,2,0,75,15,90,1080
+EMP0016,PPO Premium,Dental Basic,Waived,False,0,5,650,45,0,695,8340
+EMP0017,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680
+EMP0018,PPO Standard,Dental Basic,Vision Premium,True,3,1,450,45,25,520,6240
+EMP0019,HDHP with HSA,Dental Basic,Waived,False,0,1,300,45,0,345,4140
+EMP0020,Waived,Dental Basic,Waived,False,0,3,0,45,0,45,540
+EMP0021,PPO Standard,Dental Basic,Vision Basic,True,6,1,450,45,15,510,6120
+EMP0022,PPO Standard,Dental Plus,Vision Basic,True,3,1,450,75,15,540,6480
+EMP0023,Waived,Dental Basic,Vision Basic,True,3,3,0,45,15,60,720
+EMP0024,Waived,Dental Plus,Vision Basic,True,5,2,0,75,15,90,1080
+EMP0025,HDHP with HSA,Dental Basic,Vision Basic,True,6,2,300,45,15,360,4320
+EMP0026,PPO Premium,Dental Plus,Vision Basic,True,4,1,650,75,15,740,8880
+EMP0027,HDHP with HSA,Dental Basic,Waived,True,3,4,300,45,0,345,4140
+EMP0028,HDHP with HSA,Waived,Vision Basic,True,12,1,300,0,15,315,3780
+EMP0029,PPO Standard,Waived,Vision Premium,True,8,1,450,0,25,475,5700
+EMP0030,Waived,Waived,Vision Basic,True,12,5,0,0,15,15,180
+EMP0031,PPO Standard,Dental Plus,Vision Basic,True,6,2,450,75,15,540,6480
+EMP0032,Waived,Dental Basic,Vision Premium,True,4,3,0,45,25,70,840
+EMP0033,PPO Standard,Dental Basic,Vision Basic,True,6,1,450,45,15,510,6120
+EMP0034,HDHP with HSA,Dental Plus,Vision Basic,False,0,5,300,75,15,390,4680
+EMP0035,PPO Standard,Dental Plus,Waived,False,0,4,450,75,0,525,6300
+EMP0036,HDHP with HSA,Dental Basic,Vision Basic,True,4,4,300,45,15,360,4320
+EMP0037,PPO Standard,Waived,Vision Basic,True,4,1,450,0,15,465,5580
+EMP0038,PPO Standard,Dental Basic,Vision Basic,True,3,1,450,45,15,510,6120
+EMP0039,PPO Premium,Dental Basic,Vision Basic,True,4,1,650,45,15,710,8520
+EMP0040,PPO Premium,Dental Basic,Waived,True,6,2,650,45,0,695,8340
+EMP0041,PPO Standard,Waived,Vision Basic,False,0,3,450,0,15,465,5580
+EMP0042,PPO Standard,Dental Plus,Waived,True,3,2,450,75,0,525,6300
+EMP0043,PPO Standard,Dental Plus,Vision Premium,False,0,2,450,75,25,550,6600
+EMP0044,PPO Premium,Dental Basic,Vision Basic,True,5,2,650,45,15,710,8520
+EMP0045,PPO Standard,Waived,Waived,False,0,4,450,0,0,450,5400
+EMP0046,PPO Standard,Dental Basic,Vision Basic,True,3,1,450,45,15,510,6120
+EMP0047,PPO Standard,Dental Basic,Waived,True,7,1,450,45,0,495,5940
+EMP0048,PPO Standard,Dental Plus,Vision Basic,True,3,3,450,75,15,540,6480
+EMP0049,PPO Premium,Waived,Vision Premium,False,0,4,650,0,25,675,8100
+EMP0050,PPO Premium,Dental Basic,Waived,False,0,2,650,45,0,695,8340
+EMP0051,HDHP with HSA,Dental Basic,Vision Basic,True,5,2,300,45,15,360,4320
+EMP0052,PPO Standard,Dental Basic,Waived,True,5,3,450,45,0,495,5940
+EMP0053,PPO Premium,Dental Basic,Vision Basic,True,5,1,650,45,15,710,8520
+EMP0054,HDHP with HSA,Waived,Vision Basic,True,5,3,300,0,15,315,3780
+EMP0055,HDHP with HSA,Dental Plus,Vision Premium,False,0,3,300,75,25,400,4800
+EMP0056,HDHP with HSA,Dental Basic,Vision Premium,True,6,3,300,45,25,370,4440
+EMP0057,Waived,Dental Basic,Vision Premium,True,10,2,0,45,25,70,840
+EMP0058,PPO Standard,Waived,Waived,True,4,2,450,0,0,450,5400
+EMP0059,Waived,Dental Basic,Vision Basic,False,0,1,0,45,15,60,720
+EMP0060,PPO Standard,Dental Basic,Vision Premium,True,5,4,450,45,25,520,6240
+EMP0061,PPO Premium,Dental Plus,Vision Premium,True,5,2,650,75,25,750,9000
+EMP0062,PPO Standard,Waived,Vision Basic,True,6,1,450,0,15,465,5580
+EMP0063,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120
+EMP0064,HDHP with HSA,Dental Basic,Waived,True,3,1,300,45,0,345,4140
+EMP0065,PPO Premium,Dental Plus,Vision Premium,True,7,1,650,75,25,750,9000
+EMP0066,PPO Standard,Waived,Vision Basic,True,4,2,450,0,15,465,5580
+EMP0067,PPO Standard,Dental Plus,Vision Premium,True,4,1,450,75,25,550,6600
+EMP0068,PPO Premium,Dental Basic,Waived,False,0,2,650,45,0,695,8340
+EMP0069,PPO Premium,Dental Basic,Waived,True,7,1,650,45,0,695,8340
+EMP0070,PPO Premium,Dental Plus,Waived,True,8,3,650,75,0,725,8700
+EMP0071,PPO Standard,Waived,Waived,False,0,1,450,0,0,450,5400
+EMP0072,PPO Standard,Dental Basic,Vision Basic,True,8,1,450,45,15,510,6120
+EMP0073,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120
+EMP0074,HDHP with HSA,Dental Basic,Vision Premium,True,5,2,300,45,25,370,4440
+EMP0075,HDHP with HSA,Waived,Vision Basic,False,0,5,300,0,15,315,3780
+EMP0076,PPO Standard,Dental Basic,Waived,False,0,2,450,45,0,495,5940
+EMP0077,HDHP with HSA,Dental Basic,Vision Premium,True,6,2,300,45,25,370,4440
+EMP0078,PPO Premium,Dental Basic,Vision Basic,True,6,2,650,45,15,710,8520
+EMP0079,HDHP with HSA,Dental Plus,Waived,True,3,5,300,75,0,375,4500
+EMP0080,HDHP with HSA,Waived,Waived,True,6,1,300,0,0,300,3600
+EMP0081,PPO Premium,Dental Basic,Vision Basic,True,8,2,650,45,15,710,8520
+EMP0082,PPO Premium,Dental Basic,Vision Premium,True,8,1,650,45,25,720,8640
+EMP0083,PPO Standard,Dental Plus,Waived,True,12,2,450,75,0,525,6300
+EMP0084,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240
+EMP0085,Waived,Waived,Waived,True,15,3,0,0,0,0,0
+EMP0086,HDHP with HSA,Dental Basic,Vision Premium,True,3,2,300,45,25,370,4440
+EMP0087,HDHP with HSA,Dental Basic,Vision Basic,True,3,2,300,45,15,360,4320
+EMP0088,HDHP with HSA,Dental Plus,Waived,True,5,2,300,75,0,375,4500
+EMP0089,PPO Premium,Dental Plus,Vision Basic,True,15,1,650,75,15,740,8880
+EMP0090,HDHP with HSA,Dental Basic,Vision Basic,True,3,2,300,45,15,360,4320
+EMP0091,HDHP with HSA,Dental Plus,Vision Premium,True,6,1,300,75,25,400,4800
+EMP0092,PPO Standard,Dental Basic,Vision Premium,True,7,1,450,45,25,520,6240
+EMP0093,PPO Premium,Dental Basic,Vision Premium,True,8,1,650,45,25,720,8640
+EMP0094,PPO Premium,Dental Basic,Vision Basic,True,3,1,650,45,15,710,8520
+EMP0095,PPO Premium,Dental Plus,Waived,True,5,1,650,75,0,725,8700
+EMP0096,PPO Standard,Waived,Waived,True,6,1,450,0,0,450,5400
+EMP0097,Waived,Waived,Vision Premium,True,7,2,0,0,25,25,300
+EMP0098,PPO Standard,Dental Basic,Vision Basic,True,7,3,450,45,15,510,6120
+EMP0099,HDHP with HSA,Dental Plus,Waived,True,5,1,300,75,0,375,4500
+EMP0100,PPO Standard,Dental Basic,Waived,True,3,1,450,45,0,495,5940
+EMP0101,HDHP with HSA,Dental Basic,Waived,True,10,1,300,45,0,345,4140
+EMP0102,HDHP with HSA,Dental Plus,Vision Basic,True,7,3,300,75,15,390,4680
+EMP0103,PPO Standard,Dental Basic,Vision Premium,True,8,2,450,45,25,520,6240
+EMP0104,PPO Premium,Dental Plus,Vision Basic,False,0,2,650,75,15,740,8880
+EMP0105,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240
+EMP0106,PPO Premium,Dental Basic,Vision Premium,True,5,1,650,45,25,720,8640
+EMP0107,PPO Premium,Waived,Vision Premium,True,7,5,650,0,25,675,8100
+EMP0108,PPO Standard,Dental Basic,Vision Premium,True,8,2,450,45,25,520,6240
+EMP0109,PPO Premium,Dental Basic,Vision Basic,True,4,1,650,45,15,710,8520
+EMP0110,PPO Standard,Dental Basic,Vision Basic,True,7,1,450,45,15,510,6120
+EMP0111,PPO Standard,Dental Basic,Waived,False,0,2,450,45,0,495,5940
+EMP0112,PPO Standard,Waived,Vision Premium,False,0,2,450,0,25,475,5700
+EMP0113,HDHP with HSA,Dental Basic,Vision Basic,True,5,2,300,45,15,360,4320
+EMP0114,PPO Premium,Dental Basic,Vision Premium,True,12,1,650,45,25,720,8640
+EMP0115,Waived,Dental Plus,Vision Basic,True,8,1,0,75,15,90,1080
+EMP0116,PPO Standard,Dental Basic,Vision Premium,True,6,1,450,45,25,520,6240
+EMP0117,HDHP with HSA,Dental Plus,Waived,True,7,3,300,75,0,375,4500
+EMP0118,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680
+EMP0119,Waived,Dental Basic,Waived,True,7,1,0,45,0,45,540
+EMP0120,PPO Premium,Waived,Vision Basic,False,0,5,650,0,15,665,7980
+EMP0121,HDHP with HSA,Dental Basic,Vision Basic,True,7,2,300,45,15,360,4320
+EMP0122,PPO Premium,Dental Basic,Waived,True,7,4,650,45,0,695,8340
+EMP0123,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680
+EMP0124,Waived,Dental Basic,Waived,True,6,1,0,45,0,45,540
+EMP0125,PPO Premium,Dental Basic,Vision Premium,True,4,2,650,45,25,720,8640
+EMP0126,PPO Premium,Dental Basic,Vision Premium,True,5,1,650,45,25,720,8640
+EMP0127,PPO Standard,Dental Basic,Vision Premium,True,7,2,450,45,25,520,6240
+EMP0128,PPO Standard,Dental Basic,Waived,True,5,1,450,45,0,495,5940
+EMP0129,PPO Premium,Waived,Waived,True,7,3,650,0,0,650,7800
+EMP0130,Waived,Dental Basic,Waived,False,0,1,0,45,0,45,540
+EMP0131,PPO Standard,Dental Basic,Waived,True,4,2,450,45,0,495,5940
+EMP0132,PPO Premium,Dental Plus,Waived,False,0,3,650,75,0,725,8700
+EMP0133,PPO Standard,Waived,Waived,True,7,4,450,0,0,450,5400
+EMP0134,HDHP with HSA,Waived,Vision Basic,True,5,1,300,0,15,315,3780
+EMP0135,PPO Premium,Dental Plus,Waived,True,6,2,650,75,0,725,8700
+EMP0136,PPO Standard,Dental Plus,Vision Basic,True,8,1,450,75,15,540,6480
+EMP0137,PPO Premium,Waived,Vision Basic,True,3,2,650,0,15,665,7980
+EMP0138,PPO Premium,Dental Basic,Vision Basic,True,5,4,650,45,15,710,8520
+EMP0139,PPO Standard,Dental Plus,Waived,True,6,4,450,75,0,525,6300
+EMP0140,HDHP with HSA,Dental Basic,Waived,False,0,4,300,45,0,345,4140
+EMP0141,HDHP with HSA,Dental Basic,Waived,True,6,2,300,45,0,345,4140
+EMP0142,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120
+EMP0143,HDHP with HSA,Dental Basic,Vision Premium,True,5,3,300,45,25,370,4440
+EMP0144,Waived,Waived,Vision Basic,True,8,2,0,0,15,15,180
+EMP0145,PPO Standard,Dental Plus,Vision Basic,True,12,2,450,75,15,540,6480
+EMP0146,PPO Standard,Dental Plus,Vision Basic,True,6,2,450,75,15,540,6480
+EMP0147,HDHP with HSA,Waived,Vision Basic,False,0,1,300,0,15,315,3780
+EMP0148,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240
+EMP0149,Waived,Waived,Waived,True,4,1,0,0,0,0,0
+EMP0150,HDHP with HSA,Dental Plus,Vision Basic,True,5,4,300,75,15,390,4680
