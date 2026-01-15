@@ -47,7 +47,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Pay ranges by job title** | Helps identify compression issues or outliers |
 | **Salary vs. tenure trends** | Reveals whether long-tenured employees are being compensated appropriately |
 
-**Sample insight:** *"We have 3 employees significantly below market rate (compa-ratio < 0.85) who may be retention risks."*
+**Sample insight:** *We have 2 employees significantly below market rate (compa-ratio < 0.85) who may be retention risks, and our average compa-ratio of 0.99 shows we're paying competitively at market rate.*
 
 ### 2. Benefits Enrollment Analysis
 **What it answers:** How are employees using their benefits, and what does it cost us?
@@ -59,7 +59,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Benefits cost per employee** | Supports budgeting and forecasting |
 | **Cost breakdown by department** | Identifies where benefits dollars are going |
 
-**Sample insight:** *"76.7% of employees participate in our 401(k), with an average contribution of 6%. We could improve retirement outcomes by promoting higher contribution rates."*
+**Sample insight:** *76.7% of employees participate in our 401(k), with an average contribution of 6.0%. Our total annual benefits cost is $830,820 across 150 employees.*
 
 ### 3. Leave & PTO Tracking
 **What it answers:** How are employees using time off, and what's our liability?
@@ -71,7 +71,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Sick leave patterns** | Can indicate workplace wellness trends |
 | **Extended leave tracking** | Ensures FMLA/disability cases are properly managed |
 
-**Sample insight:** *"Our total PTO liability is $161,007.93. The Climbing department has the lowest utilization at 73%—we may want to encourage those team members to take time off."*
+**Sample insight:** *Our total PTO liability is $101,828.85. Movement Boulder has the lowest utilization at 71%—we may want to encourage those team members to take time off.*
 
 ---
 
@@ -98,7 +98,7 @@ Color-coded bars (red/yellow/green) that instantly show which departments may ne
 
 ## 🔧 How I Built This
 
-I used **Python**, a widely-used programming language for data analysis. The code is thoroughly commented to explain every step, over 1,500 lines with **explanations of what each section does and why**.
+I used **Python**, a widely-used programming language for data analysis. The code is thoroughly commented to explain every step, over 1,200 lines with **explanations of what each section does and why**.
 
 ### Key Technologies
 | Tool | What It Does |
