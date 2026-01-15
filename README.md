@@ -42,10 +42,10 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 | What I Analyze | Why It Matters |
 |----------------|----------------|
-| **Salary by department & location** | Ensures pay is consistent and accounts for cost of living differences |
-| **Compa-ratios** | Shows how each employee's pay compares to market rates (critical for retention) |
-| **Pay ranges by job title** | Helps identify compression issues or outliers |
-| **Salary vs. tenure trends** | Reveals whether long-tenured employees are being compensated appropriately |
+| [**Salary by department & location**](output/charts/01_salary_by_department.png) | Ensures pay is consistent and accounts for cost of living differences |
+| [**Compa-ratios**](output/charts/03_compa_ratio_distribution.png) | Shows how each employee's pay compares to market rates (critical for retention) |
+| [**Pay ranges by job title**](output/charts/02_salary_by_location.png) | Helps identify compression issues or outliers |
+| [**Salary vs. tenure trends**](output/charts/04_salary_vs_tenure.png) | Reveals whether long-tenured employees are being compensated appropriately |
 
 ![Compa-Ratio Distribution](output/charts/03_compa_ratio_distribution.png)
 
@@ -56,10 +56,10 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 | What I Analyze | Why It Matters |
 |----------------|----------------|
-| **Medical/dental/vision enrollment rates** | Shows plan popularity and helps with renewal negotiations |
-| **401(k) participation & contribution rates** | Indicates retirement readiness and benefits communication effectiveness |
-| **Benefits cost per employee** | Supports budgeting and forecasting |
-| **Cost breakdown by department** | Identifies where benefit dollars are going |
+| [**Medical/dental/vision enrollment rates**](output/charts/06_medical_enrollment.png) | Shows plan popularity and helps with renewal negotiations |
+| [**401(k) participation & contribution rates**](output/charts/07_401k_contributions.png) | Indicates retirement readiness and benefits communication effectiveness |
+| [**Benefits cost per employee**](output/charts/08_benefits_cost_by_dept.png) | Supports budgeting and forecasting |
+| [**Cost breakdown by department**](output/charts/08_benefits_cost_by_dept.png) | Identifies where benefits dollars are going |
 
 ![401k Contributions](output/charts/07_401k_contributions.png)
 
@@ -70,10 +70,10 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 | What I Analyze | Why It Matters |
 |----------------|----------------|
-| **PTO utilization rates** | Low utilization may signal burnout risk or staffing issues |
-| **Leave balance liability** | Unused PTO is a financial liability on the books |
-| **Sick leave patterns** | Can indicate workplace wellness trends |
-| **Extended leave tracking** | Ensures FMLA/disability cases are properly managed |
+| [**PTO utilization rates**](output/charts/10_pto_utilization.png) | Low utilization may signal burnout risk or staffing issues |
+| [**Leave balance liability**](output/charts/11_leave_balances.png) | Unused PTO is a financial liability on the books |
+| [**Sick leave patterns**](output/charts/11_leave_balances.png) | Can indicate workplace wellness trends |
+| [**Extended leave tracking**](output/charts/12_extended_leave.png) | Ensures FMLA/disability cases are properly managed |
 
 ![PTO Utilization](output/charts/10_pto_utilization.png)
 
