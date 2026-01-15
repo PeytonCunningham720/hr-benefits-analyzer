@@ -223,7 +223,7 @@ If I were to continue developing this project, here's what I'd add:
 
 I'm excited about the opportunity to bring these analytical skills to Movement's HR team. Benefits and compensation work is deeply meaningful, it directly impacts team members' financial wellness and sense of being valued **(a current topic of discussion within the Golden gym and others)**.
 
-I'd love to discuss how my skills could support Movement's mission of growth, connection, and integrity.
+I'd love to discuss how my skills will support Movement's mission of growth, connection, and integrity.
 
 **Peyton Cunningham**
 
@@ -231,7 +231,7 @@ I'd love to discuss how my skills could support Movement's mission of growth, co
 
 ## 📝 A Note on the Data
 
-This project uses **synthetic (fake) data** that I generated to demonstrate the analysis capabilities. No real employee information was used. The data is designed to be realistic and representative of what you might see in an actual climbing gym organization with ~150 employees across multiple locations.
+This project uses **synthetic (fake) data** that I generated to demonstrate the analysis capabilities. No real employee information was used. The data is designed to be realistic and representative of what you might see in an actual climbing gym organization with ~150 employees across our Colorado region gyms.
 
 ---
 
