@@ -231,7 +231,7 @@ I'd love to discuss how my skills will support Movement's mission of growth, con
 
 ## 📝 A Note on the Data
 
-This project uses **synthetic (fake) data** that I generated to demonstrate the analysis capabilities. No real employee information was used. The data is designed to be realistic and representative of what you might see in an actual climbing gym organization with ~150 employees across our Colorado region gyms.
+This project uses **synthetic (fake) data** that I generated to demonstrate the analysis capabilities. No real employee information was used. The data is designed to be realistic and representative of what you might see in an actual climbing gym organization.
 
 ---
 
