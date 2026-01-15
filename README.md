@@ -4,8 +4,6 @@
 
 ## 👋 Hi, My name is Peyton Cunningham!
 
-## Used skills to address the needs of the position
-
 **Thank you for taking the time to review my portfolio project!**
 
 When first reading through the job description for the **Benefits & Compensation Administrator** position, I immediately knew that this was a chance to bridge the gap between my skills in data analytics, critical thinking, communication, and passion for Movement's vision. I have spent the past weeks creating sample data and scalable code to address the needs of the position.
@@ -61,11 +59,11 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Medical/dental/vision enrollment rates** | Shows plan popularity and helps with renewal negotiations |
 | **401(k) participation & contribution rates** | Indicates retirement readiness and benefits communication effectiveness |
 | **Benefits cost per employee** | Supports budgeting and forecasting |
-| **Cost breakdown by department** | Identifies where benefits dollars are going |
+| **Cost breakdown by department** | Identifies where benefit dollars are going |
 
 ![401k Contributions](output/charts/07_401k_contributions.png)
 
-**Sample insight:** *76.7% of employees participate in our 401(k), with an average contribution of 5.9%. Our total annual benefits cost is $830,820 across 150 employees.*
+**Sample insight:** *76.7% of employees participate in our 401(k), with an average contribution of 5.9%. Our total annual benefits cost is $830,820 across 120 employees.*
 
 ### 3. Leave & PTO Tracking
 **What it answers:** How are employees using time off, and what's our liability?
@@ -87,19 +85,19 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 The project **automatically** generates **13 professional charts** that are ready for executive presentations. Here are a few highlights:
 
-### Executive Dashboard
+### [Executive Dashboard](output/charts/00_executive_dashboard.png)
 A one-page summary showing key metrics at a glance: total headcount, average salary, average tenure, and benefits enrollment rate.
 
-### Salary Distribution by Department
+### [Salary Distribution by Department](output/charts/01_salary_by_department.png)
 Box plots that show the range, median, and outliers for each department—making it easy to spot pay equity issues.
 
-### Compa-Ratio Distribution
+### [Compa-Ratio Distribution](output/charts/03_compa_ratio_distribution.png)
 A histogram showing how employees are distributed relative to market rates, with clear markers for "below market," "at market," and "above market."
 
-### 401(k) Contribution Rates
+### [401(k) Contribution Rates](output/charts/07_401k_contributions.png)
 Shows the distribution of contribution percentages, helping identify opportunities to improve **retirement readiness**.
 
-### PTO Utilization by Department
+### [PTO Utilization by Department](output/charts/10_pto_utilization.png)
 Color-coded bars (red/yellow/green) that instantly show which departments may need encouragement to use their time off.
 
 ---
