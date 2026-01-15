@@ -124,15 +124,15 @@ def generate_employee_data():
         
         # Front Desk (varies by gym size)
         ('Front Desk Supervisor', 'Operations', 1, 38000, 45000, 1),
-        ('Front Desk Staff', 'Operations', 0, 30000, 38000, 4),
+        ('Front Desk Staff', 'Operations', 0, 30000, 38000, 6),
         
         # Climbing/Route Setting
         ('Head Route Setter', 'Climbing', 2, 50000, 62000, 1),
-        ('Route Setter', 'Climbing', 1, 38000, 48000, 3),
+        ('Route Setter', 'Climbing', 1, 38000, 48000, 4),
         
         # Fitness & Yoga (often part-time, shown as FTE equivalent)
-        ('Fitness Instructor', 'Fitness', 0, 32000, 42000, 2),
-        ('Yoga Teacher', 'Fitness', 0, 30000, 40000, 2),
+        ('Fitness Instructor', 'Fitness', 0, 32000, 42000, 3),
+        ('Yoga Teacher', 'Fitness', 0, 30000, 40000, 3),
         
         # Youth Programs
         ('Youth Program Manager', 'Youth Programs', 1, 40000, 50000, 1),
@@ -780,23 +780,93 @@ def create_compensation_visualizations(employee_df, analysis_results):
     plt.close()
     
     # -------------------------------------------------------------------------
-    # Chart 3: Compa-Ratio Distribution (Histogram)
+    # Chart 3: Compa-Ratio Distribution (Enhanced)
     # -------------------------------------------------------------------------
     
-    plt.figure(figsize=(12, 7))
+    fig, ax = plt.subplots(figsize=(14, 9))
     
-    plt.hist(employee_df['compa_ratio'], bins=20, color='steelblue', edgecolor='white', alpha=0.8)
+    # Calculate key metrics
+    below_market = len(employee_df[employee_df['compa_ratio'] < 0.85])
+    at_market = len(employee_df[(employee_df['compa_ratio'] >= 0.85) & (employee_df['compa_ratio'] <= 1.15)])
+    above_market = len(employee_df[employee_df['compa_ratio'] > 1.15])
+    avg_compa = employee_df['compa_ratio'].mean()
+    median_compa = employee_df['compa_ratio'].median()
     
-    plt.axvline(x=0.85, color='red', linestyle='--', linewidth=2, label='Below Market (0.85)')
-    plt.axvline(x=1.0, color='green', linestyle='--', linewidth=2, label='Market Midpoint (1.0)')
-    plt.axvline(x=1.15, color='orange', linestyle='--', linewidth=2, label='Above Market (1.15)')
+    # Create histogram with better binning
+    n, bins, patches = ax.hist(employee_df['compa_ratio'], bins=25, color='#5DADE2', 
+                                edgecolor='white', alpha=0.85, linewidth=1.2)
     
-    plt.title('Compa-Ratio Distribution - Movement Colorado', fontsize=16, fontweight='bold')
-    plt.xlabel('Compa-Ratio (Salary / Market Midpoint)', fontsize=12)
-    plt.ylabel('Number of Employees', fontsize=12)
-    plt.legend(loc='upper right')
+    # Color bars based on market position
+    for i, (patch, bin_left) in enumerate(zip(patches, bins[:-1])):
+        if bin_left < 0.85:
+            patch.set_facecolor('#E74C3C')  # Red - below market
+        elif bin_left > 1.15:
+            patch.set_facecolor('#F39C12')  # Orange - above market
+        else:
+            patch.set_facecolor('#27AE60')  # Green - at market
+    
+    # Add vertical reference lines
+    ax.axvline(x=0.85, color='#E74C3C', linestyle='--', linewidth=2.5, alpha=0.8)
+    ax.axvline(x=1.0, color='#2C3E50', linestyle='-', linewidth=3, alpha=0.9)
+    ax.axvline(x=1.15, color='#F39C12', linestyle='--', linewidth=2.5, alpha=0.8)
+    ax.axvline(x=avg_compa, color='#9B59B6', linestyle=':', linewidth=2.5, alpha=0.9)
+    
+    # Add shaded regions
+    ax.axvspan(0, 0.85, alpha=0.08, color='#E74C3C')
+    ax.axvspan(1.15, 2, alpha=0.08, color='#F39C12')
+    ax.axvspan(0.85, 1.15, alpha=0.08, color='#27AE60')
+    
+    # Title and labels
+    ax.set_title('Compa-Ratio Distribution\nHow Our Pay Compares to Market', 
+                 fontsize=18, fontweight='bold', pad=20, color='#2C3E50')
+    ax.set_xlabel('Compa-Ratio (Employee Salary ÷ Market Midpoint)', fontsize=13, labelpad=10)
+    ax.set_ylabel('Number of Employees', fontsize=13, labelpad=10)
+    
+    # Add text boxes with key insights
+    textbox_props = dict(boxstyle='round,pad=0.5', facecolor='white', edgecolor='#BDC3C7', alpha=0.95)
+    
+    # Summary stats box (top right)
+    stats_text = f'Summary Statistics\n' \
+                 f'─────────────────\n' \
+                 f'Average: {avg_compa:.2f}\n' \
+                 f'Median: {median_compa:.2f}\n' \
+                 f'Total Employees: {len(employee_df)}'
+    ax.text(0.98, 0.98, stats_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='right', bbox=textbox_props,
+            fontfamily='monospace')
+    
+    # Distribution breakdown box (top left)
+    breakdown_text = f'Market Position Breakdown\n' \
+                     f'──────────────────────────\n' \
+                     f'🔴 Below Market (<0.85): {below_market} ({below_market/len(employee_df)*100:.1f}%)\n' \
+                     f'🟢 At Market (0.85-1.15): {at_market} ({at_market/len(employee_df)*100:.1f}%)\n' \
+                     f'🟠 Above Market (>1.15): {above_market} ({above_market/len(employee_df)*100:.1f}%)'
+    ax.text(0.02, 0.98, breakdown_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='left', bbox=textbox_props,
+            fontfamily='monospace')
+    
+    # Custom legend
+    from matplotlib.patches import Patch
+    from matplotlib.lines import Line2D
+    legend_elements = [
+        Patch(facecolor='#E74C3C', edgecolor='white', label=f'Below Market (Retention Risk)'),
+        Patch(facecolor='#27AE60', edgecolor='white', label=f'Competitive Range'),
+        Patch(facecolor='#F39C12', edgecolor='white', label=f'Above Market'),
+        Line2D([0], [0], color='#2C3E50', linewidth=3, label='Market Midpoint (1.0)'),
+        Line2D([0], [0], color='#9B59B6', linewidth=2.5, linestyle=':', label=f'Our Average ({avg_compa:.2f})')
+    ]
+    ax.legend(handles=legend_elements, loc='upper center', bbox_to_anchor=(0.5, -0.12),
+              ncol=3, fontsize=10, frameon=True, fancybox=True, shadow=True)
+    
+    # Style improvements
+    ax.set_xlim(0.65, 1.35)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.tick_params(axis='both', labelsize=11)
+    
     plt.tight_layout()
-    plt.savefig(f'{OUTPUT_DIR}/03_compa_ratio_distribution.png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/03_compa_ratio_distribution.png', dpi=150, bbox_inches='tight',
+                facecolor='white', edgecolor='none')
     print(f"  Saved: {OUTPUT_DIR}/03_compa_ratio_distribution.png")
     plt.close()
     
@@ -898,27 +968,101 @@ def create_benefits_visualizations(benefits_df, employee_df):
     plt.close()
     
     # -------------------------------------------------------------------------
-    # Chart 7: 401(k) Contribution Distribution
+    # Chart 7: 401(k) Contribution Distribution (Enhanced)
     # -------------------------------------------------------------------------
     
-    plt.figure(figsize=(12, 7))
+    fig, ax = plt.subplots(figsize=(14, 9))
     
+    # Get enrolled employees and calculate metrics
     enrolled = benefits_df[benefits_df['401k_enrolled']]
+    not_enrolled = benefits_df[~benefits_df['401k_enrolled']]
     
-    plt.hist(enrolled['401k_contribution_pct'], bins=range(0, 18, 1), 
-            color='#27ae60', edgecolor='white', alpha=0.8)
-    
+    participation_rate = len(enrolled) / len(benefits_df) * 100
     mean_contrib = enrolled['401k_contribution_pct'].mean()
-    plt.axvline(x=mean_contrib, color='red', linestyle='--', linewidth=2,
-                label=f'Average: {mean_contrib:.1f}%')
+    median_contrib = enrolled['401k_contribution_pct'].median()
     
-    plt.title('401(k) Contribution Rate Distribution', fontsize=16, fontweight='bold')
-    plt.xlabel('Contribution Rate (%)', fontsize=12)
-    plt.ylabel('Number of Employees', fontsize=12)
-    plt.legend()
-    plt.xticks(range(0, 17, 2))
+    # Count by contribution tier
+    tier_1_5 = len(enrolled[enrolled['401k_contribution_pct'] <= 5])
+    tier_6_10 = len(enrolled[(enrolled['401k_contribution_pct'] > 5) & (enrolled['401k_contribution_pct'] <= 10)])
+    tier_11_plus = len(enrolled[enrolled['401k_contribution_pct'] > 10])
+    
+    # Create histogram
+    n, bins, patches = ax.hist(enrolled['401k_contribution_pct'], bins=range(0, 18, 1), 
+                                color='#27AE60', edgecolor='white', alpha=0.85, linewidth=1.2)
+    
+    # Color bars by tier
+    for i, (patch, bin_left) in enumerate(zip(patches, bins[:-1])):
+        if bin_left < 6:
+            patch.set_facecolor('#F39C12')  # Orange - low contribution
+        elif bin_left < 10:
+            patch.set_facecolor('#27AE60')  # Green - good contribution
+        else:
+            patch.set_facecolor('#3498DB')  # Blue - excellent contribution
+    
+    # Add reference lines
+    ax.axvline(x=mean_contrib, color='#E74C3C', linestyle='-', linewidth=3, alpha=0.9)
+    ax.axvline(x=6, color='#7F8C8D', linestyle='--', linewidth=2, alpha=0.7)  # Common match threshold
+    ax.axvline(x=10, color='#7F8C8D', linestyle='--', linewidth=2, alpha=0.7)  # High saver threshold
+    
+    # Title and labels
+    ax.set_title('401(k) Contribution Rate Distribution\nEmployee Retirement Savings Analysis', 
+                 fontsize=18, fontweight='bold', pad=20, color='#2C3E50')
+    ax.set_xlabel('Contribution Rate (%)', fontsize=13, labelpad=10)
+    ax.set_ylabel('Number of Employees', fontsize=13, labelpad=10)
+    
+    # Add text boxes with key insights
+    textbox_props = dict(boxstyle='round,pad=0.5', facecolor='white', edgecolor='#BDC3C7', alpha=0.95)
+    
+    # Participation stats box (top right)
+    stats_text = f'Participation Summary\n' \
+                 f'─────────────────────\n' \
+                 f'Enrolled: {len(enrolled)} ({participation_rate:.1f}%)\n' \
+                 f'Not Enrolled: {len(not_enrolled)} ({100-participation_rate:.1f}%)\n' \
+                 f'Avg Contribution: {mean_contrib:.1f}%\n' \
+                 f'Median Contribution: {median_contrib:.1f}%'
+    ax.text(0.98, 0.98, stats_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='right', bbox=textbox_props,
+            fontfamily='monospace')
+    
+    # Contribution tier breakdown (top left)
+    tier_text = f'Contribution Tier Breakdown\n' \
+                f'───────────────────────────\n' \
+                f'🟠 1-5% (Building): {tier_1_5} ({tier_1_5/len(enrolled)*100:.1f}%)\n' \
+                f'🟢 6-10% (On Track): {tier_6_10} ({tier_6_10/len(enrolled)*100:.1f}%)\n' \
+                f'🔵 11%+ (Maximizing): {tier_11_plus} ({tier_11_plus/len(enrolled)*100:.1f}%)'
+    ax.text(0.02, 0.98, tier_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='left', bbox=textbox_props,
+            fontfamily='monospace')
+    
+    # Opportunity callout box (bottom center)
+    opportunity_text = f'💡 Opportunity: {tier_1_5} employees at 1-5% could benefit from\n' \
+                       f'    education on increasing contributions to maximize employer match'
+    ax.text(0.5, 0.02, opportunity_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='bottom', horizontalalignment='center', 
+            bbox=dict(boxstyle='round,pad=0.5', facecolor='#FEF9E7', edgecolor='#F4D03F', alpha=0.95))
+    
+    # Custom legend
+    from matplotlib.patches import Patch
+    from matplotlib.lines import Line2D
+    legend_elements = [
+        Patch(facecolor='#F39C12', edgecolor='white', label='1-5% (Building Savings)'),
+        Patch(facecolor='#27AE60', edgecolor='white', label='6-10% (On Track)'),
+        Patch(facecolor='#3498DB', edgecolor='white', label='11%+ (Maximizing)'),
+        Line2D([0], [0], color='#E74C3C', linewidth=3, label=f'Average ({mean_contrib:.1f}%)'),
+    ]
+    ax.legend(handles=legend_elements, loc='upper center', bbox_to_anchor=(0.5, -0.12),
+              ncol=4, fontsize=10, frameon=True, fancybox=True, shadow=True)
+    
+    # Style improvements
+    ax.set_xlim(0, 17)
+    ax.set_xticks(range(0, 17, 2))
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.tick_params(axis='both', labelsize=11)
+    
     plt.tight_layout()
-    plt.savefig(f'{OUTPUT_DIR}/07_401k_contributions.png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/07_401k_contributions.png', dpi=150, bbox_inches='tight',
+                facecolor='white', edgecolor='none')
     print(f"  Saved: {OUTPUT_DIR}/07_401k_contributions.png")
     plt.close()
     
@@ -988,32 +1132,126 @@ def create_leave_visualizations(leave_df, employee_df):
     print("="*60)
     
     # -------------------------------------------------------------------------
-    # Chart 10: PTO Utilization by Gym Location
+    # Chart 10: PTO Utilization by Gym Location (Enhanced)
     # -------------------------------------------------------------------------
     
-    plt.figure(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(14, 10))
     
     leave_df['pto_utilization'] = leave_df['pto_used_hours'] / leave_df['pto_accrual_hours'] * 100
-    merged = leave_df.merge(employee_df[['employee_id', 'location']], on='employee_id')
+    merged = leave_df.merge(employee_df[['employee_id', 'location', 'annual_salary']], on='employee_id')
     
-    gym_util = merged.groupby('location')['pto_utilization'].mean().sort_values()
+    # Calculate metrics by gym
+    gym_stats = merged.groupby('location').agg({
+        'pto_utilization': 'mean',
+        'pto_balance_hours': 'sum',
+        'annual_salary': 'mean'
+    }).round(2)
     
-    colors = ['#e74c3c' if x < 70 else '#f39c12' if x < 80 else '#27ae60' for x in gym_util.values]
-    bars = plt.barh(gym_util.index, gym_util.values, color=colors)
+    # Calculate PTO liability per gym
+    merged['hourly_rate'] = merged['annual_salary'] / 2080
+    merged['pto_liability'] = merged['pto_balance_hours'] * merged['hourly_rate']
+    gym_liability = merged.groupby('location')['pto_liability'].sum()
+    gym_stats['pto_liability'] = gym_liability
     
-    plt.axvline(x=70, color='red', linestyle='--', alpha=0.5, label='Low Utilization (70%)')
-    plt.axvline(x=80, color='orange', linestyle='--', alpha=0.5, label='Target (80%)')
+    # Sort by utilization
+    gym_stats = gym_stats.sort_values('pto_utilization')
     
-    for bar, val in zip(bars, gym_util.values):
-        plt.text(val + 1, bar.get_y() + bar.get_height()/2, f'{val:.1f}%', va='center')
+    # Calculate overall metrics
+    total_liability = gym_stats['pto_liability'].sum()
+    avg_utilization = gym_stats['pto_utilization'].mean()
+    total_unused_hours = gym_stats['pto_balance_hours'].sum()
     
-    plt.title('PTO Utilization Rate by Gym Location', fontsize=16, fontweight='bold')
-    plt.xlabel('Utilization Rate (%)', fontsize=12)
-    plt.ylabel('Gym Location', fontsize=12)
-    plt.legend(loc='lower right')
-    plt.xlim(0, 100)
+    # Create horizontal bar chart
+    colors = ['#E74C3C' if x < 70 else '#F39C12' if x < 80 else '#27AE60' for x in gym_stats['pto_utilization']]
+    bars = ax.barh(range(len(gym_stats)), gym_stats['pto_utilization'], color=colors, 
+                   edgecolor='white', linewidth=1.5, height=0.7)
+    
+    # Add reference lines and shading
+    ax.axvline(x=70, color='#E74C3C', linestyle='--', linewidth=2, alpha=0.7)
+    ax.axvline(x=80, color='#27AE60', linestyle='--', linewidth=2, alpha=0.7)
+    ax.axvspan(0, 70, alpha=0.05, color='#E74C3C')
+    ax.axvspan(70, 80, alpha=0.05, color='#F39C12')
+    ax.axvspan(80, 100, alpha=0.05, color='#27AE60')
+    
+    # Add data labels with utilization % and liability
+    for i, (bar, (gym, row)) in enumerate(zip(bars, gym_stats.iterrows())):
+        util_val = row['pto_utilization']
+        liability_val = row['pto_liability']
+        
+        # Utilization label on bar
+        ax.text(util_val + 1.5, bar.get_y() + bar.get_height()/2, 
+                f'{util_val:.1f}%', va='center', fontsize=12, fontweight='bold')
+        
+        # Liability label at end
+        ax.text(98, bar.get_y() + bar.get_height()/2, 
+                f'${liability_val:,.0f}', va='center', ha='right', fontsize=10, 
+                color='#7F8C8D', style='italic')
+    
+    # Set y-axis labels (gym names)
+    gym_labels = [name.replace('Movement ', '') for name in gym_stats.index]
+    ax.set_yticks(range(len(gym_stats)))
+    ax.set_yticklabels(gym_labels, fontsize=12)
+    
+    # Title and labels
+    ax.set_title('PTO Utilization by Gym Location\nIdentifying Time-Off Patterns & Financial Liability', 
+                 fontsize=18, fontweight='bold', pad=20, color='#2C3E50')
+    ax.set_xlabel('PTO Utilization Rate (%)', fontsize=13, labelpad=10)
+    ax.set_ylabel('Gym Location', fontsize=13, labelpad=10)
+    
+    # Add text boxes with key insights
+    textbox_props = dict(boxstyle='round,pad=0.5', facecolor='white', edgecolor='#BDC3C7', alpha=0.95)
+    
+    # Summary stats box (top right)
+    stats_text = f'Organization Summary\n' \
+                 f'─────────────────────\n' \
+                 f'Avg Utilization: {avg_utilization:.1f}%\n' \
+                 f'Unused PTO Hours: {total_unused_hours:,.0f}\n' \
+                 f'Total PTO Liability: ${total_liability:,.2f}'
+    ax.text(0.98, 0.98, stats_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='right', bbox=textbox_props,
+            fontfamily='monospace')
+    
+    # Status legend box (top left)
+    status_text = f'Utilization Status Guide\n' \
+                  f'────────────────────────\n' \
+                  f'🔴 Below 70%: Concern (burnout risk)\n' \
+                  f'🟠 70-80%: Monitor (encourage PTO)\n' \
+                  f'🟢 Above 80%: Healthy utilization'
+    ax.text(0.02, 0.98, status_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='left', bbox=textbox_props,
+            fontfamily='monospace')
+    
+    # Find lowest utilization gym for callout
+    lowest_gym = gym_stats['pto_utilization'].idxmin().replace('Movement ', '')
+    lowest_util = gym_stats['pto_utilization'].min()
+    lowest_liability = gym_stats.loc[gym_stats['pto_utilization'].idxmin(), 'pto_liability']
+    
+    # Action item callout
+    action_text = f'⚠️ Action Item: {lowest_gym} has lowest utilization ({lowest_util:.1f}%)\n' \
+                  f'    with ${lowest_liability:,.0f} in PTO liability. Consider encouraging time off.'
+    ax.text(0.5, 0.02, action_text, transform=ax.transAxes, fontsize=11,
+            verticalalignment='bottom', horizontalalignment='center', 
+            bbox=dict(boxstyle='round,pad=0.5', facecolor='#FDEDEC', edgecolor='#E74C3C', alpha=0.95))
+    
+    # Custom legend
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='#E74C3C', edgecolor='white', label='Below 70% (Concern)'),
+        Patch(facecolor='#F39C12', edgecolor='white', label='70-80% (Monitor)'),
+        Patch(facecolor='#27AE60', edgecolor='white', label='Above 80% (Healthy)'),
+    ]
+    ax.legend(handles=legend_elements, loc='upper center', bbox_to_anchor=(0.5, -0.08),
+              ncol=3, fontsize=10, frameon=True, fancybox=True, shadow=True)
+    
+    # Style improvements
+    ax.set_xlim(0, 100)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.tick_params(axis='both', labelsize=11)
+    
     plt.tight_layout()
-    plt.savefig(f'{OUTPUT_DIR}/10_pto_utilization.png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/10_pto_utilization.png', dpi=150, bbox_inches='tight',
+                facecolor='white', edgecolor='none')
     print(f"  Saved: {OUTPUT_DIR}/10_pto_utilization.png")
     plt.close()
     

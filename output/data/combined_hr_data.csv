@@ -6,116 +6,146 @@ EMP0004,Employee 4,Operations,Front Desk Staff,0,Movement Englewood,2022-07-27,3
 EMP0005,Employee 5,Operations,Front Desk Staff,0,Movement Englewood,2020-02-11,32500,5.9,35000,0.93,Waived,Dental Basic,Vision Basic,True,8,1,0,45,15,60,720,200,151,49,64,1,63,None,0,75.5
 EMP0006,Employee 6,Operations,Front Desk Staff,0,Movement Englewood,2025-08-08,30000,0.4,35000,0.86,PPO Standard,Dental Plus,Vision Basic,True,6,5,450,75,15,540,6480,80,52,28,64,29,35,None,0,65.0
 EMP0007,Employee 7,Operations,Front Desk Staff,0,Movement Englewood,2023-11-08,36000,2.2,35000,1.03,Waived,Waived,Vision Basic,True,4,5,0,0,15,15,180,120,109,11,64,36,28,Parental Leave,18,90.83333333333333
-EMP0008,Employee 8,Climbing,Head Route Setter,2,Movement Englewood,2022-08-19,62000,3.4,58000,1.07,PPO Standard,Waived,Vision Basic,True,5,4,450,0,15,465,5580,160,96,64,64,8,56,None,0,60.0
-EMP0009,Employee 9,Climbing,Route Setter,1,Movement Englewood,2022-09-19,41000,3.3,44000,0.93,PPO Premium,Dental Basic,Waived,True,5,2,650,45,0,695,8340,160,144,16,64,16,48,None,0,90.0
-EMP0010,Employee 10,Climbing,Route Setter,1,Movement Englewood,2025-11-25,38000,0.1,44000,0.86,PPO Standard,Dental Basic,Vision Basic,True,7,2,450,45,15,510,6120,80,70,10,64,18,46,None,0,87.5
+EMP0008,Employee 8,Operations,Front Desk Staff,0,Movement Englewood,2022-08-19,38000,3.4,35000,1.09,PPO Standard,Waived,Vision Basic,True,5,4,450,0,15,465,5580,160,96,64,64,8,56,None,0,60.0
+EMP0009,Employee 9,Operations,Front Desk Staff,0,Movement Englewood,2022-09-19,32500,3.3,35000,0.93,PPO Premium,Dental Basic,Waived,True,5,2,650,45,0,695,8340,160,144,16,64,16,48,None,0,90.0
+EMP0010,Employee 10,Climbing,Head Route Setter,2,Movement Englewood,2025-11-25,50000,0.1,58000,0.86,PPO Standard,Dental Basic,Vision Basic,True,7,2,450,45,15,510,6120,80,70,10,64,18,46,None,0,87.5
 EMP0011,Employee 11,Climbing,Route Setter,1,Movement Englewood,2024-08-29,44000,1.4,44000,1.0,PPO Standard,Dental Plus,Vision Premium,False,0,1,450,75,25,550,6600,120,87,33,64,12,52,None,0,72.5
-EMP0012,Employee 12,Fitness,Fitness Instructor,0,Movement Englewood,2020-05-09,35000,5.7,35000,1.0,HDHP with HSA,Dental Plus,Vision Premium,True,5,1,300,75,25,400,4800,200,127,73,64,9,55,None,0,63.5
-EMP0013,Employee 13,Fitness,Fitness Instructor,0,Movement Englewood,2023-04-16,34500,2.8,35000,0.99,PPO Standard,Dental Plus,Vision Basic,True,7,1,450,75,15,540,6480,120,81,39,64,36,28,None,0,67.5
-EMP0014,Employee 14,Fitness,Yoga Teacher,0,Movement Englewood,2024-06-02,34000,1.6,35000,0.97,Waived,Dental Basic,Waived,True,6,5,0,45,0,45,540,120,105,15,64,6,58,None,0,87.5
-EMP0015,Employee 15,Fitness,Yoga Teacher,0,Movement Englewood,2022-06-28,36000,3.6,35000,1.03,Waived,Dental Plus,Vision Basic,True,3,2,0,75,15,90,1080,160,124,36,64,21,43,None,0,77.5
-EMP0016,Employee 16,Youth Programs,Youth Program Manager,1,Movement Englewood,2024-03-10,41500,1.9,44000,0.94,PPO Premium,Dental Basic,Waived,False,0,5,650,45,0,695,8340,120,75,45,64,17,47,None,0,62.5
-EMP0017,Employee 17,Youth Programs,ASP Instructor,0,Movement Englewood,2022-05-29,39500,3.6,35000,1.13,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680,160,131,29,64,28,36,None,0,81.875
-EMP0018,Employee 18,Youth Programs,ASP Instructor,0,Movement Englewood,2020-04-25,38500,5.7,35000,1.1,PPO Standard,Dental Basic,Vision Premium,True,3,1,450,45,25,520,6240,200,185,15,64,40,24,None,0,92.5
-EMP0019,Employee 19,Youth Programs,Team Coach,1,Movement Englewood,2022-03-24,40500,3.8,44000,0.92,HDHP with HSA,Dental Basic,Waived,False,0,1,300,45,0,345,4140,160,142,18,64,37,27,None,0,88.75
-EMP0020,Employee 20,Youth Programs,Team Coach,1,Movement Englewood,2021-11-29,44000,4.1,44000,1.0,Waived,Dental Basic,Waived,False,0,3,0,45,0,45,540,160,102,58,64,42,22,None,0,63.74999999999999
-EMP0021,Employee 21,Management,Gym Director,2,Movement Baker,2023-11-02,55500,2.2,58000,0.96,PPO Standard,Dental Basic,Vision Basic,True,6,1,450,45,15,510,6120,120,83,37,64,31,33,None,0,69.16666666666667
-EMP0022,Employee 22,Management,Assistant Gym Director,2,Movement Baker,2020-08-09,47000,5.4,58000,0.81,PPO Standard,Dental Plus,Vision Basic,True,3,1,450,75,15,540,6480,200,162,38,64,30,34,None,0,81.0
-EMP0023,Employee 23,Operations,Front Desk Supervisor,1,Movement Baker,2023-03-01,41500,2.9,44000,0.94,Waived,Dental Basic,Vision Basic,True,3,3,0,45,15,60,720,120,89,31,64,34,30,None,0,74.16666666666667
-EMP0024,Employee 24,Operations,Front Desk Staff,0,Movement Baker,2022-11-13,34500,3.2,35000,0.99,Waived,Dental Plus,Vision Basic,True,5,2,0,75,15,90,1080,160,145,15,64,40,24,None,0,90.625
-EMP0025,Employee 25,Operations,Front Desk Staff,0,Movement Baker,2021-11-07,38000,4.2,35000,1.09,HDHP with HSA,Dental Basic,Vision Basic,True,6,2,300,45,15,360,4320,160,111,49,64,18,46,None,0,69.375
-EMP0026,Employee 26,Operations,Front Desk Staff,0,Movement Baker,2021-08-20,37500,4.4,35000,1.07,PPO Premium,Dental Plus,Vision Basic,True,4,1,650,75,15,740,8880,160,106,54,64,36,28,None,0,66.25
-EMP0027,Employee 27,Operations,Front Desk Staff,0,Movement Baker,2020-07-14,37500,5.5,35000,1.07,HDHP with HSA,Dental Basic,Waived,True,3,4,300,45,0,345,4140,200,167,33,64,35,29,None,0,83.5
-EMP0028,Employee 28,Climbing,Head Route Setter,2,Movement Baker,2023-09-23,54000,2.3,58000,0.93,HDHP with HSA,Waived,Vision Basic,True,12,1,300,0,15,315,3780,120,95,25,64,39,25,None,0,79.16666666666666
-EMP0029,Employee 29,Climbing,Route Setter,1,Movement Baker,2022-06-20,38500,3.6,44000,0.88,PPO Standard,Waived,Vision Premium,True,8,1,450,0,25,475,5700,160,140,20,64,45,19,None,0,87.5
-EMP0030,Employee 30,Climbing,Route Setter,1,Movement Baker,2025-01-13,43500,1.0,44000,0.99,Waived,Waived,Vision Basic,True,12,5,0,0,15,15,180,120,102,18,64,26,38,None,0,85.0
-EMP0031,Employee 31,Climbing,Route Setter,1,Movement Baker,2023-10-17,41500,2.2,44000,0.94,PPO Standard,Dental Plus,Vision Basic,True,6,2,450,75,15,540,6480,120,80,40,64,37,27,None,0,66.66666666666666
-EMP0032,Employee 32,Fitness,Fitness Instructor,0,Movement Baker,2023-11-14,38000,2.2,35000,1.09,Waived,Dental Basic,Vision Premium,True,4,3,0,45,25,70,840,120,72,48,64,41,23,None,0,60.0
-EMP0033,Employee 33,Fitness,Fitness Instructor,0,Movement Baker,2024-08-11,33500,1.4,35000,0.96,PPO Standard,Dental Basic,Vision Basic,True,6,1,450,45,15,510,6120,120,81,39,64,1,63,FMLA,58,67.5
-EMP0034,Employee 34,Fitness,Yoga Teacher,0,Movement Baker,2020-04-24,31500,5.7,35000,0.9,HDHP with HSA,Dental Plus,Vision Basic,False,0,5,300,75,15,390,4680,200,133,67,64,22,42,None,0,66.5
-EMP0035,Employee 35,Fitness,Yoga Teacher,0,Movement Baker,2022-03-20,34000,3.8,35000,0.97,PPO Standard,Dental Plus,Waived,False,0,4,450,75,0,525,6300,160,143,17,64,36,28,None,0,89.375
-EMP0036,Employee 36,Youth Programs,Youth Program Manager,1,Movement Baker,2021-11-12,40000,4.2,44000,0.91,HDHP with HSA,Dental Basic,Vision Basic,True,4,4,300,45,15,360,4320,160,105,55,64,10,54,None,0,65.625
-EMP0037,Employee 37,Youth Programs,ASP Instructor,0,Movement Baker,2021-10-16,37500,4.2,35000,1.07,PPO Standard,Waived,Vision Basic,True,4,1,450,0,15,465,5580,160,99,61,64,0,64,None,0,61.875
-EMP0038,Employee 38,Youth Programs,ASP Instructor,0,Movement Baker,2021-04-23,38500,4.7,35000,1.1,PPO Standard,Dental Basic,Vision Basic,True,3,1,450,45,15,510,6120,160,134,26,64,6,58,FMLA,18,83.75
-EMP0039,Employee 39,Youth Programs,Team Coach,1,Movement Baker,2024-12-03,38500,1.1,44000,0.88,PPO Premium,Dental Basic,Vision Basic,True,4,1,650,45,15,710,8520,120,109,11,64,17,47,None,0,90.83333333333333
-EMP0040,Employee 40,Youth Programs,Team Coach,1,Movement Baker,2020-03-29,47000,5.8,44000,1.07,PPO Premium,Dental Basic,Waived,True,6,2,650,45,0,695,8340,200,141,59,64,27,37,None,0,70.5
-EMP0041,Employee 41,Management,Gym Director,2,Movement RiNo,2025-05-30,64500,0.6,58000,1.11,PPO Standard,Waived,Vision Basic,False,0,3,450,0,15,465,5580,80,50,30,64,17,47,None,0,62.5
-EMP0042,Employee 42,Management,Assistant Gym Director,2,Movement RiNo,2024-08-01,48000,1.5,58000,0.83,PPO Standard,Dental Plus,Waived,True,3,2,450,75,0,525,6300,120,108,12,64,0,64,None,0,90.0
-EMP0043,Employee 43,Operations,Front Desk Supervisor,1,Movement RiNo,2021-03-01,42500,4.9,44000,0.97,PPO Standard,Dental Plus,Vision Premium,False,0,2,450,75,25,550,6600,160,140,20,64,26,38,None,0,87.5
-EMP0044,Employee 44,Operations,Front Desk Staff,0,Movement RiNo,2020-10-08,32000,5.3,35000,0.91,PPO Premium,Dental Basic,Vision Basic,True,5,2,650,45,15,710,8520,200,144,56,64,18,46,None,0,72.0
-EMP0045,Employee 45,Operations,Front Desk Staff,0,Movement RiNo,2021-08-29,34000,4.4,35000,0.97,PPO Standard,Waived,Waived,False,0,4,450,0,0,450,5400,160,124,36,64,0,64,None,0,77.5
-EMP0046,Employee 46,Operations,Front Desk Staff,0,Movement RiNo,2021-11-22,37000,4.1,35000,1.06,PPO Standard,Dental Basic,Vision Basic,True,3,1,450,45,15,510,6120,160,130,30,64,17,47,None,0,81.25
-EMP0047,Employee 47,Operations,Front Desk Staff,0,Movement RiNo,2023-02-22,34500,2.9,35000,0.99,PPO Standard,Dental Basic,Waived,True,7,1,450,45,0,495,5940,120,72,48,64,39,25,None,0,60.0
-EMP0048,Employee 48,Climbing,Head Route Setter,2,Movement RiNo,2024-11-14,56000,1.2,58000,0.97,PPO Standard,Dental Plus,Vision Basic,True,3,3,450,75,15,540,6480,120,89,31,64,45,19,None,0,74.16666666666667
-EMP0049,Employee 49,Climbing,Route Setter,1,Movement RiNo,2024-11-19,45000,1.2,44000,1.02,PPO Premium,Waived,Vision Premium,False,0,4,650,0,25,675,8100,120,83,37,64,32,32,None,0,69.16666666666667
-EMP0050,Employee 50,Climbing,Route Setter,1,Movement RiNo,2020-10-22,38500,5.2,44000,0.88,PPO Premium,Dental Basic,Waived,False,0,2,650,45,0,695,8340,200,127,73,64,1,63,None,0,63.5
-EMP0051,Employee 51,Climbing,Route Setter,1,Movement RiNo,2021-11-23,40000,4.1,44000,0.91,HDHP with HSA,Dental Basic,Vision Basic,True,5,2,300,45,15,360,4320,160,140,20,64,37,27,None,0,87.5
-EMP0052,Employee 52,Fitness,Fitness Instructor,0,Movement RiNo,2023-08-06,38500,2.4,35000,1.1,PPO Standard,Dental Basic,Waived,True,5,3,450,45,0,495,5940,120,80,40,64,19,45,None,0,66.66666666666666
-EMP0053,Employee 53,Fitness,Fitness Instructor,0,Movement RiNo,2024-06-01,37500,1.6,35000,1.07,PPO Premium,Dental Basic,Vision Basic,True,5,1,650,45,15,710,8520,120,88,32,64,29,35,None,0,73.33333333333333
-EMP0054,Employee 54,Fitness,Yoga Teacher,0,Movement RiNo,2020-09-10,39000,5.3,35000,1.11,HDHP with HSA,Waived,Vision Basic,True,5,3,300,0,15,315,3780,200,169,31,64,28,36,None,0,84.5
-EMP0055,Employee 55,Fitness,Yoga Teacher,0,Movement RiNo,2021-05-13,37500,4.7,35000,1.07,HDHP with HSA,Dental Plus,Vision Premium,False,0,3,300,75,25,400,4800,160,105,55,64,5,59,None,0,65.625
-EMP0056,Employee 56,Youth Programs,Youth Program Manager,1,Movement RiNo,2023-01-22,49500,3.0,44000,1.12,HDHP with HSA,Dental Basic,Vision Premium,True,6,3,300,45,25,370,4440,160,113,47,64,31,33,None,0,70.625
-EMP0057,Employee 57,Youth Programs,ASP Instructor,0,Movement RiNo,2021-03-30,37500,4.8,35000,1.07,Waived,Dental Basic,Vision Premium,True,10,2,0,45,25,70,840,160,123,37,64,32,32,None,0,76.875
-EMP0058,Employee 58,Youth Programs,ASP Instructor,0,Movement RiNo,2020-12-23,39500,5.1,35000,1.13,PPO Standard,Waived,Waived,True,4,2,450,0,0,450,5400,200,128,72,64,27,37,None,0,64.0
-EMP0059,Employee 59,Youth Programs,Team Coach,1,Movement RiNo,2021-08-02,44500,4.5,44000,1.01,Waived,Dental Basic,Vision Basic,False,0,1,0,45,15,60,720,160,121,39,64,8,56,None,0,75.625
-EMP0060,Employee 60,Youth Programs,Team Coach,1,Movement RiNo,2023-10-13,46000,2.3,44000,1.05,PPO Standard,Dental Basic,Vision Premium,True,5,4,450,45,25,520,6240,120,82,38,64,42,22,None,0,68.33333333333333
-EMP0061,Employee 61,Management,Gym Director,2,Movement Golden,2022-03-24,68500,3.8,58000,1.18,PPO Premium,Dental Plus,Vision Premium,True,5,2,650,75,25,750,9000,160,123,37,64,25,39,None,0,76.875
-EMP0062,Employee 62,Management,Assistant Gym Director,2,Movement Golden,2022-04-02,48000,3.8,58000,0.83,PPO Standard,Waived,Vision Basic,True,6,1,450,0,15,465,5580,160,102,58,64,24,40,None,0,63.74999999999999
-EMP0063,Employee 63,Operations,Front Desk Supervisor,1,Movement Golden,2020-05-18,44500,5.7,44000,1.01,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120,200,169,31,64,22,42,None,0,84.5
-EMP0064,Employee 64,Operations,Front Desk Staff,0,Movement Golden,2022-02-07,32000,3.9,35000,0.91,HDHP with HSA,Dental Basic,Waived,True,3,1,300,45,0,345,4140,160,97,63,64,15,49,None,0,60.62499999999999
-EMP0065,Employee 65,Operations,Front Desk Staff,0,Movement Golden,2023-04-19,37000,2.7,35000,1.06,PPO Premium,Dental Plus,Vision Premium,True,7,1,650,75,25,750,9000,120,80,40,64,4,60,None,0,66.66666666666666
-EMP0066,Employee 66,Operations,Front Desk Staff,0,Movement Golden,2024-01-07,34000,2.0,35000,0.97,PPO Standard,Waived,Vision Basic,True,4,2,450,0,15,465,5580,120,98,22,64,8,56,None,0,81.66666666666667
-EMP0067,Employee 67,Operations,Front Desk Staff,0,Movement Golden,2024-03-08,34000,1.9,35000,0.97,PPO Standard,Dental Plus,Vision Premium,True,4,1,450,75,25,550,6600,120,104,16,64,22,42,None,0,86.66666666666667
-EMP0068,Employee 68,Climbing,Head Route Setter,2,Movement Golden,2022-07-08,54000,3.5,58000,0.93,PPO Premium,Dental Basic,Waived,False,0,2,650,45,0,695,8340,160,97,63,64,19,45,None,0,60.62499999999999
-EMP0069,Employee 69,Climbing,Route Setter,1,Movement Golden,2020-06-27,39500,5.6,44000,0.9,PPO Premium,Dental Basic,Waived,True,7,1,650,45,0,695,8340,200,153,47,64,35,29,None,0,76.5
-EMP0070,Employee 70,Climbing,Route Setter,1,Movement Golden,2021-06-29,43500,4.5,44000,0.99,PPO Premium,Dental Plus,Waived,True,8,3,650,75,0,725,8700,160,112,48,64,47,17,None,0,70.0
-EMP0071,Employee 71,Climbing,Route Setter,1,Movement Golden,2022-11-06,38500,3.2,44000,0.88,PPO Standard,Waived,Waived,False,0,1,450,0,0,450,5400,160,144,16,64,21,43,None,0,90.0
-EMP0072,Employee 72,Fitness,Fitness Instructor,0,Movement Golden,2024-06-01,34500,1.6,35000,0.99,PPO Standard,Dental Basic,Vision Basic,True,8,1,450,45,15,510,6120,120,75,45,64,13,51,None,0,62.5
-EMP0073,Employee 73,Fitness,Fitness Instructor,0,Movement Golden,2021-06-24,35000,4.6,35000,1.0,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120,160,143,17,64,11,53,None,0,89.375
-EMP0074,Employee 74,Fitness,Yoga Teacher,0,Movement Golden,2024-01-18,36000,2.0,35000,1.03,HDHP with HSA,Dental Basic,Vision Premium,True,5,2,300,45,25,370,4440,120,77,43,64,19,45,None,0,64.16666666666667
-EMP0075,Employee 75,Fitness,Yoga Teacher,0,Movement Golden,2024-03-15,34000,1.8,35000,0.97,HDHP with HSA,Waived,Vision Basic,False,0,5,300,0,15,315,3780,120,73,47,64,42,22,None,0,60.83333333333333
-EMP0076,Employee 76,Youth Programs,Youth Program Manager,1,Movement Golden,2023-08-15,43000,2.4,44000,0.98,PPO Standard,Dental Basic,Waived,False,0,2,450,45,0,495,5940,120,97,23,64,26,38,None,0,80.83333333333333
-EMP0077,Employee 77,Youth Programs,ASP Instructor,0,Movement Golden,2021-05-30,33000,4.6,35000,0.94,HDHP with HSA,Dental Basic,Vision Premium,True,6,2,300,45,25,370,4440,160,127,33,64,12,52,None,0,79.375
-EMP0078,Employee 78,Youth Programs,ASP Instructor,0,Movement Golden,2021-04-14,35500,4.8,35000,1.01,PPO Premium,Dental Basic,Vision Basic,True,6,2,650,45,15,710,8520,160,115,45,64,36,28,None,0,71.875
-EMP0079,Employee 79,Youth Programs,Team Coach,1,Movement Golden,2021-03-19,40500,4.8,44000,0.92,HDHP with HSA,Dental Plus,Waived,True,3,5,300,75,0,375,4500,160,146,14,64,27,37,None,0,91.25
-EMP0080,Employee 80,Youth Programs,Team Coach,1,Movement Golden,2023-09-03,39000,2.4,44000,0.89,HDHP with HSA,Waived,Waived,True,6,1,300,0,0,300,3600,120,105,15,64,36,28,None,0,87.5
-EMP0081,Employee 81,Management,Gym Director,2,Movement Boulder,2025-08-16,58500,0.4,58000,1.01,PPO Premium,Dental Basic,Vision Basic,True,8,2,650,45,15,710,8520,80,62,18,64,20,44,None,0,77.5
-EMP0082,Employee 82,Management,Assistant Gym Director,2,Movement Boulder,2025-02-26,48500,0.9,58000,0.84,PPO Premium,Dental Basic,Vision Premium,True,8,1,650,45,25,720,8640,80,65,15,64,28,36,None,0,81.25
-EMP0083,Employee 83,Operations,Front Desk Supervisor,1,Movement Boulder,2025-06-02,41000,0.6,44000,0.93,PPO Standard,Dental Plus,Waived,True,12,2,450,75,0,525,6300,80,52,28,64,13,51,None,0,65.0
-EMP0084,Employee 84,Operations,Front Desk Staff,0,Movement Boulder,2024-04-17,31000,1.7,35000,0.89,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240,120,103,17,64,29,35,None,0,85.83333333333333
-EMP0085,Employee 85,Operations,Front Desk Staff,0,Movement Boulder,2025-06-13,31500,0.6,35000,0.9,Waived,Waived,Waived,True,15,3,0,0,0,0,0,80,62,18,64,43,21,None,0,77.5
-EMP0086,Employee 86,Operations,Front Desk Staff,0,Movement Boulder,2021-01-17,34500,5.0,35000,0.99,HDHP with HSA,Dental Basic,Vision Premium,True,3,2,300,45,25,370,4440,200,159,41,64,8,56,None,0,79.5
-EMP0087,Employee 87,Operations,Front Desk Staff,0,Movement Boulder,2020-08-09,30000,5.4,35000,0.86,HDHP with HSA,Dental Basic,Vision Basic,True,3,2,300,45,15,360,4320,200,170,30,64,16,48,None,0,85.0
-EMP0088,Employee 88,Climbing,Head Route Setter,2,Movement Boulder,2020-07-09,59500,5.5,58000,1.03,HDHP with HSA,Dental Plus,Waived,True,5,2,300,75,0,375,4500,200,157,43,64,39,25,None,0,78.5
-EMP0089,Employee 89,Climbing,Route Setter,1,Movement Boulder,2021-03-18,39500,4.8,44000,0.9,PPO Premium,Dental Plus,Vision Basic,True,15,1,650,75,15,740,8880,160,116,44,64,47,17,None,0,72.5
-EMP0090,Employee 90,Climbing,Route Setter,1,Movement Boulder,2020-08-05,42000,5.4,44000,0.95,HDHP with HSA,Dental Basic,Vision Basic,True,3,2,300,45,15,360,4320,200,130,70,64,28,36,None,0,65.0
-EMP0091,Employee 91,Climbing,Route Setter,1,Movement Boulder,2024-03-16,45000,1.8,44000,1.02,HDHP with HSA,Dental Plus,Vision Premium,True,6,1,300,75,25,400,4800,120,81,39,64,27,37,None,0,67.5
-EMP0092,Employee 92,Fitness,Fitness Instructor,0,Movement Boulder,2020-07-26,41000,5.5,35000,1.17,PPO Standard,Dental Basic,Vision Premium,True,7,1,450,45,25,520,6240,200,178,22,64,14,50,None,0,89.0
-EMP0093,Employee 93,Fitness,Fitness Instructor,0,Movement Boulder,2021-06-26,34500,4.6,35000,0.99,PPO Premium,Dental Basic,Vision Premium,True,8,1,650,45,25,720,8640,160,141,19,64,11,53,None,0,88.125
-EMP0094,Employee 94,Fitness,Yoga Teacher,0,Movement Boulder,2024-04-02,35500,1.8,35000,1.01,PPO Premium,Dental Basic,Vision Basic,True,3,1,650,45,15,710,8520,120,101,19,64,31,33,None,0,84.16666666666667
-EMP0095,Employee 95,Fitness,Yoga Teacher,0,Movement Boulder,2023-07-20,32500,2.5,35000,0.93,PPO Premium,Dental Plus,Waived,True,5,1,650,75,0,725,8700,120,89,31,64,18,46,None,0,74.16666666666667
-EMP0096,Employee 96,Youth Programs,Youth Program Manager,1,Movement Boulder,2022-04-29,49500,3.7,44000,1.12,PPO Standard,Waived,Waived,True,6,1,450,0,0,450,5400,160,104,56,64,8,56,Parental Leave,40,65.0
-EMP0097,Employee 97,Youth Programs,ASP Instructor,0,Movement Boulder,2024-09-20,39000,1.3,35000,1.11,Waived,Waived,Vision Premium,True,7,2,0,0,25,25,300,120,107,13,64,16,48,None,0,89.16666666666667
-EMP0098,Employee 98,Youth Programs,ASP Instructor,0,Movement Boulder,2020-04-30,34000,5.7,35000,0.97,PPO Standard,Dental Basic,Vision Basic,True,7,3,450,45,15,510,6120,200,133,67,64,15,49,None,0,66.5
-EMP0099,Employee 99,Youth Programs,Team Coach,1,Movement Boulder,2021-05-09,45500,4.7,44000,1.03,HDHP with HSA,Dental Plus,Waived,True,5,1,300,75,0,375,4500,160,113,47,64,14,50,None,0,70.625
-EMP0100,Employee 100,Youth Programs,Team Coach,1,Movement Boulder,2022-10-19,46500,3.2,44000,1.06,PPO Standard,Dental Basic,Waived,True,3,1,450,45,0,495,5940,160,117,43,64,11,53,None,0,73.125
-EMP0101,Employee 101,Management,Gym Director,2,Movement Centennial,2020-03-16,66500,5.8,58000,1.15,HDHP with HSA,Dental Basic,Waived,True,10,1,300,45,0,345,4140,200,128,72,64,2,62,None,0,64.0
-EMP0102,Employee 102,Management,Assistant Gym Director,2,Movement Centennial,2024-03-29,46000,1.8,58000,0.79,HDHP with HSA,Dental Plus,Vision Basic,True,7,3,300,75,15,390,4680,120,104,16,64,13,51,None,0,86.66666666666667
-EMP0103,Employee 103,Operations,Front Desk Supervisor,1,Movement Centennial,2022-01-03,44500,4.0,44000,1.01,PPO Standard,Dental Basic,Vision Premium,True,8,2,450,45,25,520,6240,160,106,54,64,12,52,None,0,66.25
-EMP0104,Employee 104,Operations,Front Desk Staff,0,Movement Centennial,2025-04-07,30000,0.8,35000,0.86,PPO Premium,Dental Plus,Vision Basic,False,0,2,650,75,15,740,8880,80,54,26,64,44,20,None,0,67.5
-EMP0105,Employee 105,Operations,Front Desk Staff,0,Movement Centennial,2021-11-11,35500,4.2,35000,1.01,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240,160,126,34,64,34,30,None,0,78.75
-EMP0106,Employee 106,Operations,Front Desk Staff,0,Movement Centennial,2020-10-19,32500,5.2,35000,0.93,PPO Premium,Dental Basic,Vision Premium,True,5,1,650,45,25,720,8640,200,133,67,64,17,47,None,0,66.5
-EMP0107,Employee 107,Operations,Front Desk Staff,0,Movement Centennial,2023-07-23,34500,2.5,35000,0.99,PPO Premium,Waived,Vision Premium,True,7,5,650,0,25,675,8100,120,83,37,64,44,20,None,0,69.16666666666667
-EMP0108,Employee 108,Climbing,Head Route Setter,2,Movement Centennial,2023-05-05,52500,2.7,58000,0.91,PPO Standard,Dental Basic,Vision Premium,True,8,2,450,45,25,520,6240,120,99,21,64,13,51,None,0,82.5
-EMP0109,Employee 109,Climbing,Route Setter,1,Movement Centennial,2025-07-09,38000,0.5,44000,0.86,PPO Premium,Dental Basic,Vision Basic,True,4,1,650,45,15,710,8520,80,58,22,64,1,63,Parental Leave,29,72.5
-EMP0110,Employee 110,Climbing,Route Setter,1,Movement Centennial,2024-11-14,41500,1.2,44000,0.94,PPO Standard,Dental Basic,Vision Basic,True,7,1,450,45,15,510,6120,120,73,47,64,4,60,None,0,60.83333333333333
-EMP0111,Employee 111,Climbing,Route Setter,1,Movement Centennial,2021-10-11,44500,4.3,44000,1.01,PPO Standard,Dental Basic,Waived,False,0,2,450,45,0,495,5940,160,139,21,64,14,50,None,0,86.875
-EMP0112,Employee 112,Fitness,Fitness Instructor,0,Movement Centennial,2022-10-15,39000,3.3,35000,1.11,PPO Standard,Waived,Vision Premium,False,0,2,450,0,25,475,5700,160,149,11,64,40,24,None,0,93.125
-EMP0113,Employee 113,Fitness,Fitness Instructor,0,Movement Centennial,2024-03-17,37500,1.8,35000,1.07,HDHP with HSA,Dental Basic,Vision Basic,True,5,2,300,45,15,360,4320,120,73,47,64,32,32,None,0,60.83333333333333
-EMP0114,Employee 114,Fitness,Yoga Teacher,0,Movement Centennial,2024-09-13,35000,1.3,35000,1.0,PPO Premium,Dental Basic,Vision Premium,True,12,1,650,45,25,720,8640,120,78,42,64,4,60,None,0,65.0
-EMP0115,Employee 115,Fitness,Yoga Teacher,0,Movement Centennial,2024-09-03,32500,1.4,35000,0.93,Waived,Dental Plus,Vision Basic,True,8,1,0,75,15,90,1080,120,82,38,64,28,36,None,0,68.33333333333333
-EMP0116,Employee 116,Youth Programs,Youth Program Manager,1,Movement Centennial,2021-04-28,49500,4.7,44000,1.12,PPO Standard,Dental Basic,Vision Premium,True,6,1,450,45,25,520,6240,160,97,63,64,30,34,FMLA,49,60.62499999999999
-EMP0117,Employee 117,Youth Programs,ASP Instructor,0,Movement Centennial,2024-06-02,39000,1.6,35000,1.11,HDHP with HSA,Dental Plus,Waived,True,7,3,300,75,0,375,4500,120,81,39,64,12,52,None,0,67.5
-EMP0118,Employee 118,Youth Programs,ASP Instructor,0,Movement Centennial,2020-04-12,38500,5.8,35000,1.1,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680,200,146,54,64,35,29,None,0,73.0
-EMP0119,Employee 119,Youth Programs,Team Coach,1,Movement Centennial,2023-10-11,44500,2.3,44000,1.01,Waived,Dental Basic,Waived,True,7,1,0,45,0,45,540,120,76,44,64,18,46,None,0,63.33333333333333
-EMP0120,Employee 120,Youth Programs,Team Coach,1,Movement Centennial,2023-05-02,46500,2.7,44000,1.06,PPO Premium,Waived,Vision Basic,False,0,5,650,0,15,665,7980,120,88,32,64,4,60,None,0,73.33333333333333
+EMP0012,Employee 12,Climbing,Route Setter,1,Movement Englewood,2020-05-09,41000,5.7,44000,0.93,HDHP with HSA,Dental Plus,Vision Premium,True,5,1,300,75,25,400,4800,200,127,73,64,9,55,None,0,63.5
+EMP0013,Employee 13,Climbing,Route Setter,1,Movement Englewood,2023-04-16,40500,2.8,44000,0.92,PPO Standard,Dental Plus,Vision Basic,True,7,1,450,75,15,540,6480,120,81,39,64,36,28,None,0,67.5
+EMP0014,Employee 14,Climbing,Route Setter,1,Movement Englewood,2024-06-02,42000,1.6,44000,0.95,Waived,Dental Basic,Waived,True,6,5,0,45,0,45,540,120,105,15,64,6,58,None,0,87.5
+EMP0015,Employee 15,Fitness,Fitness Instructor,0,Movement Englewood,2022-06-28,38000,3.6,35000,1.09,Waived,Dental Plus,Vision Basic,True,3,2,0,75,15,90,1080,160,124,36,64,21,43,None,0,77.5
+EMP0016,Employee 16,Fitness,Fitness Instructor,0,Movement Englewood,2024-03-10,33500,1.9,35000,0.96,PPO Premium,Dental Basic,Waived,False,0,5,650,45,0,695,8340,120,75,45,64,17,47,None,0,62.5
+EMP0017,Employee 17,Fitness,Fitness Instructor,0,Movement Englewood,2022-05-29,41500,3.6,35000,1.19,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680,160,131,29,64,28,36,None,0,81.875
+EMP0018,Employee 18,Fitness,Yoga Teacher,0,Movement Englewood,2020-04-25,38000,5.7,35000,1.09,PPO Standard,Dental Basic,Vision Premium,True,3,1,450,45,25,520,6240,200,185,15,64,40,24,None,0,92.5
+EMP0019,Employee 19,Fitness,Yoga Teacher,0,Movement Englewood,2022-03-24,32500,3.8,35000,0.93,HDHP with HSA,Dental Basic,Waived,False,0,1,300,45,0,345,4140,160,142,18,64,37,27,None,0,88.75
+EMP0020,Employee 20,Fitness,Yoga Teacher,0,Movement Englewood,2021-11-29,36000,4.1,35000,1.03,Waived,Dental Basic,Waived,False,0,3,0,45,0,45,540,160,102,58,64,42,22,None,0,63.74999999999999
+EMP0021,Employee 21,Youth Programs,Youth Program Manager,1,Movement Englewood,2023-11-02,40500,2.2,44000,0.92,PPO Standard,Dental Basic,Vision Basic,True,6,1,450,45,15,510,6120,120,83,37,64,31,33,None,0,69.16666666666667
+EMP0022,Employee 22,Youth Programs,ASP Instructor,0,Movement Englewood,2020-08-09,33500,5.4,35000,0.96,PPO Standard,Dental Plus,Vision Basic,True,3,1,450,75,15,540,6480,200,162,38,64,30,34,None,0,81.0
+EMP0023,Employee 23,Youth Programs,ASP Instructor,0,Movement Englewood,2023-03-01,36000,2.9,35000,1.03,Waived,Dental Basic,Vision Basic,True,3,3,0,45,15,60,720,120,89,31,64,34,30,None,0,74.16666666666667
+EMP0024,Employee 24,Youth Programs,Team Coach,1,Movement Englewood,2022-11-13,43500,3.2,44000,0.99,Waived,Dental Plus,Vision Basic,True,5,2,0,75,15,90,1080,160,145,15,64,40,24,None,0,90.625
+EMP0025,Employee 25,Youth Programs,Team Coach,1,Movement Englewood,2021-11-07,47500,4.2,44000,1.08,HDHP with HSA,Dental Basic,Vision Basic,True,6,2,300,45,15,360,4320,160,111,49,64,18,46,None,0,69.375
+EMP0026,Employee 26,Management,Gym Director,2,Movement Baker,2021-08-20,69000,4.4,58000,1.19,PPO Premium,Dental Plus,Vision Basic,True,4,1,650,75,15,740,8880,160,106,54,64,36,28,None,0,66.25
+EMP0027,Employee 27,Management,Assistant Gym Director,2,Movement Baker,2020-07-14,54500,5.5,58000,0.94,HDHP with HSA,Dental Basic,Waived,True,3,4,300,45,0,345,4140,200,167,33,64,35,29,None,0,83.5
+EMP0028,Employee 28,Operations,Front Desk Supervisor,1,Movement Baker,2023-09-23,40500,2.3,44000,0.92,HDHP with HSA,Waived,Vision Basic,True,12,1,300,0,15,315,3780,120,95,25,64,39,25,None,0,79.16666666666666
+EMP0029,Employee 29,Operations,Front Desk Staff,0,Movement Baker,2022-06-20,30500,3.6,35000,0.87,PPO Standard,Waived,Vision Premium,True,8,1,450,0,25,475,5700,160,140,20,64,45,19,None,0,87.5
+EMP0030,Employee 30,Operations,Front Desk Staff,0,Movement Baker,2025-01-13,34500,1.0,35000,0.99,Waived,Waived,Vision Basic,True,12,5,0,0,15,15,180,120,102,18,64,26,38,None,0,85.0
+EMP0031,Employee 31,Operations,Front Desk Staff,0,Movement Baker,2023-10-17,33000,2.2,35000,0.94,PPO Standard,Dental Plus,Vision Basic,True,6,2,450,75,15,540,6480,120,80,40,64,37,27,None,0,66.66666666666666
+EMP0032,Employee 32,Operations,Front Desk Staff,0,Movement Baker,2023-11-14,35000,2.2,35000,1.0,Waived,Dental Basic,Vision Premium,True,4,3,0,45,25,70,840,120,72,48,64,41,23,None,0,60.0
+EMP0033,Employee 33,Operations,Front Desk Staff,0,Movement Baker,2024-08-11,31000,1.4,35000,0.89,PPO Standard,Dental Basic,Vision Basic,True,6,1,450,45,15,510,6120,120,81,39,64,1,63,FMLA,58,67.5
+EMP0034,Employee 34,Operations,Front Desk Staff,0,Movement Baker,2020-04-24,31500,5.7,35000,0.9,HDHP with HSA,Dental Plus,Vision Basic,False,0,5,300,75,15,390,4680,200,133,67,64,22,42,None,0,66.5
+EMP0035,Employee 35,Climbing,Head Route Setter,2,Movement Baker,2022-03-20,54500,3.8,58000,0.94,PPO Standard,Dental Plus,Waived,False,0,4,450,75,0,525,6300,160,143,17,64,36,28,None,0,89.375
+EMP0036,Employee 36,Climbing,Route Setter,1,Movement Baker,2021-11-12,38000,4.2,44000,0.86,HDHP with HSA,Dental Basic,Vision Basic,True,4,4,300,45,15,360,4320,160,105,55,64,10,54,None,0,65.625
+EMP0037,Employee 37,Climbing,Route Setter,1,Movement Baker,2021-10-16,45000,4.2,44000,1.02,PPO Standard,Waived,Vision Basic,True,4,1,450,0,15,465,5580,160,99,61,64,0,64,None,0,61.875
+EMP0038,Employee 38,Climbing,Route Setter,1,Movement Baker,2021-04-23,46000,4.7,44000,1.05,PPO Standard,Dental Basic,Vision Basic,True,3,1,450,45,15,510,6120,160,134,26,64,6,58,FMLA,18,83.75
+EMP0039,Employee 39,Climbing,Route Setter,1,Movement Baker,2024-12-03,38500,1.1,44000,0.88,PPO Premium,Dental Basic,Vision Basic,True,4,1,650,45,15,710,8520,120,109,11,64,17,47,None,0,90.83333333333333
+EMP0040,Employee 40,Fitness,Fitness Instructor,0,Movement Baker,2020-03-29,41000,5.8,35000,1.17,PPO Premium,Dental Basic,Waived,True,6,2,650,45,0,695,8340,200,141,59,64,27,37,None,0,70.5
+EMP0041,Employee 41,Fitness,Fitness Instructor,0,Movement Baker,2025-05-30,38000,0.6,35000,1.09,PPO Standard,Waived,Vision Basic,False,0,3,450,0,15,465,5580,80,50,30,64,17,47,None,0,62.5
+EMP0042,Employee 42,Fitness,Fitness Instructor,0,Movement Baker,2024-08-01,35000,1.5,35000,1.0,PPO Standard,Dental Plus,Waived,True,3,2,450,75,0,525,6300,120,108,12,64,0,64,None,0,90.0
+EMP0043,Employee 43,Fitness,Yoga Teacher,0,Movement Baker,2021-03-01,36500,4.9,35000,1.04,PPO Standard,Dental Plus,Vision Premium,False,0,2,450,75,25,550,6600,160,140,20,64,26,38,None,0,87.5
+EMP0044,Employee 44,Fitness,Yoga Teacher,0,Movement Baker,2020-10-08,32500,5.3,35000,0.93,PPO Premium,Dental Basic,Vision Basic,True,5,2,650,45,15,710,8520,200,144,56,64,18,46,None,0,72.0
+EMP0045,Employee 45,Fitness,Yoga Teacher,0,Movement Baker,2021-08-29,34500,4.4,35000,0.99,PPO Standard,Waived,Waived,False,0,4,450,0,0,450,5400,160,124,36,64,0,64,None,0,77.5
+EMP0046,Employee 46,Youth Programs,Youth Program Manager,1,Movement Baker,2021-11-22,48500,4.1,44000,1.1,PPO Standard,Dental Basic,Vision Basic,True,3,1,450,45,15,510,6120,160,130,30,64,17,47,None,0,81.25
+EMP0047,Employee 47,Youth Programs,ASP Instructor,0,Movement Baker,2023-02-22,36500,2.9,35000,1.04,PPO Standard,Dental Basic,Waived,True,7,1,450,45,0,495,5940,120,72,48,64,39,25,None,0,60.0
+EMP0048,Employee 48,Youth Programs,ASP Instructor,0,Movement Baker,2024-11-14,36000,1.2,35000,1.03,PPO Standard,Dental Plus,Vision Basic,True,3,3,450,75,15,540,6480,120,89,31,64,45,19,None,0,74.16666666666667
+EMP0049,Employee 49,Youth Programs,Team Coach,1,Movement Baker,2024-11-19,45000,1.2,44000,1.02,PPO Premium,Waived,Vision Premium,False,0,4,650,0,25,675,8100,120,83,37,64,32,32,None,0,69.16666666666667
+EMP0050,Employee 50,Youth Programs,Team Coach,1,Movement Baker,2020-10-22,38500,5.2,44000,0.88,PPO Premium,Dental Basic,Waived,False,0,2,650,45,0,695,8340,200,127,73,64,1,63,None,0,63.5
+EMP0051,Employee 51,Management,Gym Director,2,Movement RiNo,2021-11-23,58000,4.1,58000,1.0,HDHP with HSA,Dental Basic,Vision Basic,True,5,2,300,45,15,360,4320,160,140,20,64,37,27,None,0,87.5
+EMP0052,Employee 52,Management,Assistant Gym Director,2,Movement RiNo,2023-08-06,51500,2.4,58000,0.89,PPO Standard,Dental Basic,Waived,True,5,3,450,45,0,495,5940,120,80,40,64,19,45,None,0,66.66666666666666
+EMP0053,Employee 53,Operations,Front Desk Supervisor,1,Movement RiNo,2024-06-01,42000,1.6,44000,0.95,PPO Premium,Dental Basic,Vision Basic,True,5,1,650,45,15,710,8520,120,88,32,64,29,35,None,0,73.33333333333333
+EMP0054,Employee 54,Operations,Front Desk Staff,0,Movement RiNo,2020-09-10,37500,5.3,35000,1.07,HDHP with HSA,Waived,Vision Basic,True,5,3,300,0,15,315,3780,200,169,31,64,28,36,None,0,84.5
+EMP0055,Employee 55,Operations,Front Desk Staff,0,Movement RiNo,2021-05-13,36000,4.7,35000,1.03,HDHP with HSA,Dental Plus,Vision Premium,False,0,3,300,75,25,400,4800,160,105,55,64,5,59,None,0,65.625
+EMP0056,Employee 56,Operations,Front Desk Staff,0,Movement RiNo,2023-01-22,37500,3.0,35000,1.07,HDHP with HSA,Dental Basic,Vision Premium,True,6,3,300,45,25,370,4440,160,113,47,64,31,33,None,0,70.625
+EMP0057,Employee 57,Operations,Front Desk Staff,0,Movement RiNo,2021-03-30,35500,4.8,35000,1.01,Waived,Dental Basic,Vision Premium,True,10,2,0,45,25,70,840,160,123,37,64,32,32,None,0,76.875
+EMP0058,Employee 58,Operations,Front Desk Staff,0,Movement RiNo,2020-12-23,37500,5.1,35000,1.07,PPO Standard,Waived,Waived,True,4,2,450,0,0,450,5400,200,128,72,64,27,37,None,0,64.0
+EMP0059,Employee 59,Operations,Front Desk Staff,0,Movement RiNo,2021-08-02,35000,4.5,35000,1.0,Waived,Dental Basic,Vision Basic,False,0,1,0,45,15,60,720,160,121,39,64,8,56,None,0,75.625
+EMP0060,Employee 60,Climbing,Head Route Setter,2,Movement RiNo,2023-10-13,59500,2.3,58000,1.03,PPO Standard,Dental Basic,Vision Premium,True,5,4,450,45,25,520,6240,120,82,38,64,42,22,None,0,68.33333333333333
+EMP0061,Employee 61,Climbing,Route Setter,1,Movement RiNo,2022-03-24,47000,3.8,44000,1.07,PPO Premium,Dental Plus,Vision Premium,True,5,2,650,75,25,750,9000,160,123,37,64,25,39,None,0,76.875
+EMP0062,Employee 62,Climbing,Route Setter,1,Movement RiNo,2022-04-02,41000,3.8,44000,0.93,PPO Standard,Waived,Vision Basic,True,6,1,450,0,15,465,5580,160,102,58,64,24,40,None,0,63.74999999999999
+EMP0063,Employee 63,Climbing,Route Setter,1,Movement RiNo,2020-05-18,47000,5.7,44000,1.07,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120,200,169,31,64,22,42,None,0,84.5
+EMP0064,Employee 64,Climbing,Route Setter,1,Movement RiNo,2022-02-07,40500,3.9,44000,0.92,HDHP with HSA,Dental Basic,Waived,True,3,1,300,45,0,345,4140,160,97,63,64,15,49,None,0,60.62499999999999
+EMP0065,Employee 65,Fitness,Fitness Instructor,0,Movement RiNo,2023-04-19,40500,2.7,35000,1.16,PPO Premium,Dental Plus,Vision Premium,True,7,1,650,75,25,750,9000,120,80,40,64,4,60,None,0,66.66666666666666
+EMP0066,Employee 66,Fitness,Fitness Instructor,0,Movement RiNo,2024-01-07,37000,2.0,35000,1.06,PPO Standard,Waived,Vision Basic,True,4,2,450,0,15,465,5580,120,98,22,64,8,56,None,0,81.66666666666667
+EMP0067,Employee 67,Fitness,Fitness Instructor,0,Movement RiNo,2024-03-08,37000,1.9,35000,1.06,PPO Standard,Dental Plus,Vision Premium,True,4,1,450,75,25,550,6600,120,104,16,64,22,42,None,0,86.66666666666667
+EMP0068,Employee 68,Fitness,Yoga Teacher,0,Movement RiNo,2022-07-08,33500,3.5,35000,0.96,PPO Premium,Dental Basic,Waived,False,0,2,650,45,0,695,8340,160,97,63,64,19,45,None,0,60.62499999999999
+EMP0069,Employee 69,Fitness,Yoga Teacher,0,Movement RiNo,2020-06-27,31500,5.6,35000,0.9,PPO Premium,Dental Basic,Waived,True,7,1,650,45,0,695,8340,200,153,47,64,35,29,None,0,76.5
+EMP0070,Employee 70,Fitness,Yoga Teacher,0,Movement RiNo,2021-06-29,35500,4.5,35000,1.01,PPO Premium,Dental Plus,Waived,True,8,3,650,75,0,725,8700,160,112,48,64,47,17,None,0,70.0
+EMP0071,Employee 71,Youth Programs,Youth Program Manager,1,Movement RiNo,2022-11-06,40500,3.2,44000,0.92,PPO Standard,Waived,Waived,False,0,1,450,0,0,450,5400,160,144,16,64,21,43,None,0,90.0
+EMP0072,Employee 72,Youth Programs,ASP Instructor,0,Movement RiNo,2024-06-01,34000,1.6,35000,0.97,PPO Standard,Dental Basic,Vision Basic,True,8,1,450,45,15,510,6120,120,75,45,64,13,51,None,0,62.5
+EMP0073,Employee 73,Youth Programs,ASP Instructor,0,Movement RiNo,2021-06-24,34500,4.6,35000,0.99,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120,160,143,17,64,11,53,None,0,89.375
+EMP0074,Employee 74,Youth Programs,Team Coach,1,Movement RiNo,2024-01-18,44000,2.0,44000,1.0,HDHP with HSA,Dental Basic,Vision Premium,True,5,2,300,45,25,370,4440,120,77,43,64,19,45,None,0,64.16666666666667
+EMP0075,Employee 75,Youth Programs,Team Coach,1,Movement RiNo,2024-03-15,42000,1.8,44000,0.95,HDHP with HSA,Waived,Vision Basic,False,0,5,300,0,15,315,3780,120,73,47,64,42,22,None,0,60.83333333333333
+EMP0076,Employee 76,Management,Gym Director,2,Movement Golden,2023-08-15,59000,2.4,58000,1.02,PPO Standard,Dental Basic,Waived,False,0,2,450,45,0,495,5940,120,97,23,64,26,38,None,0,80.83333333333333
+EMP0077,Employee 77,Management,Assistant Gym Director,2,Movement Golden,2021-05-30,46500,4.6,58000,0.8,HDHP with HSA,Dental Basic,Vision Premium,True,6,2,300,45,25,370,4440,160,127,33,64,12,52,None,0,79.375
+EMP0078,Employee 78,Operations,Front Desk Supervisor,1,Movement Golden,2021-04-14,41000,4.8,44000,0.93,PPO Premium,Dental Basic,Vision Basic,True,6,2,650,45,15,710,8520,160,115,45,64,36,28,None,0,71.875
+EMP0079,Employee 79,Operations,Front Desk Staff,0,Movement Golden,2021-03-19,32000,4.8,35000,0.91,HDHP with HSA,Dental Plus,Waived,True,3,5,300,75,0,375,4500,160,146,14,64,27,37,None,0,91.25
+EMP0080,Employee 80,Operations,Front Desk Staff,0,Movement Golden,2023-09-03,30500,2.4,35000,0.87,HDHP with HSA,Waived,Waived,True,6,1,300,0,0,300,3600,120,105,15,64,36,28,None,0,87.5
+EMP0081,Employee 81,Operations,Front Desk Staff,0,Movement Golden,2025-08-16,32000,0.4,35000,0.91,PPO Premium,Dental Basic,Vision Basic,True,8,2,650,45,15,710,8520,80,62,18,64,20,44,None,0,77.5
+EMP0082,Employee 82,Operations,Front Desk Staff,0,Movement Golden,2025-02-26,33000,0.9,35000,0.94,PPO Premium,Dental Basic,Vision Premium,True,8,1,650,45,25,720,8640,80,65,15,64,28,36,None,0,81.25
+EMP0083,Employee 83,Operations,Front Desk Staff,0,Movement Golden,2025-06-02,33000,0.6,35000,0.94,PPO Standard,Dental Plus,Waived,True,12,2,450,75,0,525,6300,80,52,28,64,13,51,None,0,65.0
+EMP0084,Employee 84,Operations,Front Desk Staff,0,Movement Golden,2024-04-17,31000,1.7,35000,0.89,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240,120,103,17,64,29,35,None,0,85.83333333333333
+EMP0085,Employee 85,Climbing,Head Route Setter,2,Movement Golden,2025-06-13,52000,0.6,58000,0.9,Waived,Waived,Waived,True,15,3,0,0,0,0,0,80,62,18,64,43,21,None,0,77.5
+EMP0086,Employee 86,Climbing,Route Setter,1,Movement Golden,2021-01-17,44000,5.0,44000,1.0,HDHP with HSA,Dental Basic,Vision Premium,True,3,2,300,45,25,370,4440,200,159,41,64,8,56,None,0,79.5
+EMP0087,Employee 87,Climbing,Route Setter,1,Movement Golden,2020-08-09,38000,5.4,44000,0.86,HDHP with HSA,Dental Basic,Vision Basic,True,3,2,300,45,15,360,4320,200,170,30,64,16,48,None,0,85.0
+EMP0088,Employee 88,Climbing,Route Setter,1,Movement Golden,2020-07-09,46000,5.5,44000,1.05,HDHP with HSA,Dental Plus,Waived,True,5,2,300,75,0,375,4500,200,157,43,64,39,25,None,0,78.5
+EMP0089,Employee 89,Climbing,Route Setter,1,Movement Golden,2021-03-18,39500,4.8,44000,0.9,PPO Premium,Dental Plus,Vision Basic,True,15,1,650,75,15,740,8880,160,116,44,64,47,17,None,0,72.5
+EMP0090,Employee 90,Fitness,Fitness Instructor,0,Movement Golden,2020-08-05,36000,5.4,35000,1.03,HDHP with HSA,Dental Basic,Vision Basic,True,3,2,300,45,15,360,4320,200,130,70,64,28,36,None,0,65.0
+EMP0091,Employee 91,Fitness,Fitness Instructor,0,Movement Golden,2024-03-16,39000,1.8,35000,1.11,HDHP with HSA,Dental Plus,Vision Premium,True,6,1,300,75,25,400,4800,120,81,39,64,27,37,None,0,67.5
+EMP0092,Employee 92,Fitness,Fitness Instructor,0,Movement Golden,2020-07-26,41000,5.5,35000,1.17,PPO Standard,Dental Basic,Vision Premium,True,7,1,450,45,25,520,6240,200,178,22,64,14,50,None,0,89.0
+EMP0093,Employee 93,Fitness,Yoga Teacher,0,Movement Golden,2021-06-26,32500,4.6,35000,0.93,PPO Premium,Dental Basic,Vision Premium,True,8,1,650,45,25,720,8640,160,141,19,64,11,53,None,0,88.125
+EMP0094,Employee 94,Fitness,Yoga Teacher,0,Movement Golden,2024-04-02,35500,1.8,35000,1.01,PPO Premium,Dental Basic,Vision Basic,True,3,1,650,45,15,710,8520,120,101,19,64,31,33,None,0,84.16666666666667
+EMP0095,Employee 95,Fitness,Yoga Teacher,0,Movement Golden,2023-07-20,32500,2.5,35000,0.93,PPO Premium,Dental Plus,Waived,True,5,1,650,75,0,725,8700,120,89,31,64,18,46,None,0,74.16666666666667
+EMP0096,Employee 96,Youth Programs,Youth Program Manager,1,Movement Golden,2022-04-29,49500,3.7,44000,1.12,PPO Standard,Waived,Waived,True,6,1,450,0,0,450,5400,160,104,56,64,8,56,Parental Leave,40,65.0
+EMP0097,Employee 97,Youth Programs,ASP Instructor,0,Movement Golden,2024-09-20,39000,1.3,35000,1.11,Waived,Waived,Vision Premium,True,7,2,0,0,25,25,300,120,107,13,64,16,48,None,0,89.16666666666667
+EMP0098,Employee 98,Youth Programs,ASP Instructor,0,Movement Golden,2020-04-30,34000,5.7,35000,0.97,PPO Standard,Dental Basic,Vision Basic,True,7,3,450,45,15,510,6120,200,133,67,64,15,49,None,0,66.5
+EMP0099,Employee 99,Youth Programs,Team Coach,1,Movement Golden,2021-05-09,45500,4.7,44000,1.03,HDHP with HSA,Dental Plus,Waived,True,5,1,300,75,0,375,4500,160,113,47,64,14,50,None,0,70.625
+EMP0100,Employee 100,Youth Programs,Team Coach,1,Movement Golden,2022-10-19,46500,3.2,44000,1.06,PPO Standard,Dental Basic,Waived,True,3,1,450,45,0,495,5940,160,117,43,64,11,53,None,0,73.125
+EMP0101,Employee 101,Management,Gym Director,2,Movement Boulder,2020-03-16,66500,5.8,58000,1.15,HDHP with HSA,Dental Basic,Waived,True,10,1,300,45,0,345,4140,200,128,72,64,2,62,None,0,64.0
+EMP0102,Employee 102,Management,Assistant Gym Director,2,Movement Boulder,2024-03-29,46000,1.8,58000,0.79,HDHP with HSA,Dental Plus,Vision Basic,True,7,3,300,75,15,390,4680,120,104,16,64,13,51,None,0,86.66666666666667
+EMP0103,Employee 103,Operations,Front Desk Supervisor,1,Movement Boulder,2022-01-03,44500,4.0,44000,1.01,PPO Standard,Dental Basic,Vision Premium,True,8,2,450,45,25,520,6240,160,106,54,64,12,52,None,0,66.25
+EMP0104,Employee 104,Operations,Front Desk Staff,0,Movement Boulder,2025-04-07,30000,0.8,35000,0.86,PPO Premium,Dental Plus,Vision Basic,False,0,2,650,75,15,740,8880,80,54,26,64,44,20,None,0,67.5
+EMP0105,Employee 105,Operations,Front Desk Staff,0,Movement Boulder,2021-11-11,35500,4.2,35000,1.01,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240,160,126,34,64,34,30,None,0,78.75
+EMP0106,Employee 106,Operations,Front Desk Staff,0,Movement Boulder,2020-10-19,32500,5.2,35000,0.93,PPO Premium,Dental Basic,Vision Premium,True,5,1,650,45,25,720,8640,200,133,67,64,17,47,None,0,66.5
+EMP0107,Employee 107,Operations,Front Desk Staff,0,Movement Boulder,2023-07-23,34500,2.5,35000,0.99,PPO Premium,Waived,Vision Premium,True,7,5,650,0,25,675,8100,120,83,37,64,44,20,None,0,69.16666666666667
+EMP0108,Employee 108,Operations,Front Desk Staff,0,Movement Boulder,2023-05-05,32000,2.7,35000,0.91,PPO Standard,Dental Basic,Vision Premium,True,8,2,450,45,25,520,6240,120,99,21,64,13,51,None,0,82.5
+EMP0109,Employee 109,Operations,Front Desk Staff,0,Movement Boulder,2025-07-09,30000,0.5,35000,0.86,PPO Premium,Dental Basic,Vision Basic,True,4,1,650,45,15,710,8520,80,58,22,64,1,63,Parental Leave,29,72.5
+EMP0110,Employee 110,Climbing,Head Route Setter,2,Movement Boulder,2024-11-14,54000,1.2,58000,0.93,PPO Standard,Dental Basic,Vision Basic,True,7,1,450,45,15,510,6120,120,73,47,64,4,60,None,0,60.83333333333333
+EMP0111,Employee 111,Climbing,Route Setter,1,Movement Boulder,2021-10-11,44500,4.3,44000,1.01,PPO Standard,Dental Basic,Waived,False,0,2,450,45,0,495,5940,160,139,21,64,14,50,None,0,86.875
+EMP0112,Employee 112,Climbing,Route Setter,1,Movement Boulder,2022-10-15,45000,3.3,44000,1.02,PPO Standard,Waived,Vision Premium,False,0,2,450,0,25,475,5700,160,149,11,64,40,24,None,0,93.125
+EMP0113,Employee 113,Climbing,Route Setter,1,Movement Boulder,2024-03-17,43500,1.8,44000,0.99,HDHP with HSA,Dental Basic,Vision Basic,True,5,2,300,45,15,360,4320,120,73,47,64,32,32,None,0,60.83333333333333
+EMP0114,Employee 114,Climbing,Route Setter,1,Movement Boulder,2024-09-13,43000,1.3,44000,0.98,PPO Premium,Dental Basic,Vision Premium,True,12,1,650,45,25,720,8640,120,78,42,64,4,60,None,0,65.0
+EMP0115,Employee 115,Fitness,Fitness Instructor,0,Movement Boulder,2024-09-03,34500,1.4,35000,0.99,Waived,Dental Plus,Vision Basic,True,8,1,0,75,15,90,1080,120,82,38,64,28,36,None,0,68.33333333333333
+EMP0116,Employee 116,Fitness,Fitness Instructor,0,Movement Boulder,2021-04-28,41500,4.7,35000,1.19,PPO Standard,Dental Basic,Vision Premium,True,6,1,450,45,25,520,6240,160,97,63,64,30,34,FMLA,49,60.62499999999999
+EMP0117,Employee 117,Fitness,Fitness Instructor,0,Movement Boulder,2024-06-02,41000,1.6,35000,1.17,HDHP with HSA,Dental Plus,Waived,True,7,3,300,75,0,375,4500,120,81,39,64,12,52,None,0,67.5
+EMP0118,Employee 118,Fitness,Yoga Teacher,0,Movement Boulder,2020-04-12,38000,5.8,35000,1.09,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680,200,146,54,64,35,29,None,0,73.0
+EMP0119,Employee 119,Fitness,Yoga Teacher,0,Movement Boulder,2023-10-11,36500,2.3,35000,1.04,Waived,Dental Basic,Waived,True,7,1,0,45,0,45,540,120,76,44,64,18,46,None,0,63.33333333333333
+EMP0120,Employee 120,Fitness,Yoga Teacher,0,Movement Boulder,2023-05-02,38500,2.7,35000,1.1,PPO Premium,Waived,Vision Basic,False,0,5,650,0,15,665,7980,120,88,32,64,4,60,None,0,73.33333333333333
+EMP0121,Employee 121,Youth Programs,Youth Program Manager,1,Movement Boulder,2023-09-23,43000,2.3,44000,0.98,HDHP with HSA,Dental Basic,Vision Basic,True,7,2,300,45,15,360,4320,120,73,47,64,1,63,Short-term Disability,36,60.83333333333333
+EMP0122,Employee 122,Youth Programs,ASP Instructor,0,Movement Boulder,2024-06-18,38000,1.6,35000,1.09,PPO Premium,Dental Basic,Waived,True,7,4,650,45,0,695,8340,120,112,8,64,2,62,None,0,93.33333333333333
+EMP0123,Employee 123,Youth Programs,ASP Instructor,0,Movement Boulder,2025-11-30,40000,0.1,35000,1.14,HDHP with HSA,Dental Plus,Vision Basic,False,0,1,300,75,15,390,4680,80,57,23,64,5,59,None,0,71.25
+EMP0124,Employee 124,Youth Programs,Team Coach,1,Movement Boulder,2023-01-12,47000,3.0,44000,1.07,Waived,Dental Basic,Waived,True,6,1,0,45,0,45,540,160,119,41,64,42,22,FMLA,24,74.375
+EMP0125,Employee 125,Youth Programs,Team Coach,1,Movement Boulder,2020-01-31,45500,6.0,44000,1.03,PPO Premium,Dental Basic,Vision Premium,True,4,2,650,45,25,720,8640,200,120,80,64,29,35,None,0,60.0
+EMP0126,Employee 126,Management,Gym Director,2,Movement Centennial,2023-01-21,69000,3.0,58000,1.19,PPO Premium,Dental Basic,Vision Premium,True,5,1,650,45,25,720,8640,160,129,31,64,21,43,None,0,80.625
+EMP0127,Employee 127,Management,Assistant Gym Director,2,Movement Centennial,2025-02-18,54500,0.9,58000,0.94,PPO Standard,Dental Basic,Vision Premium,True,7,2,450,45,25,520,6240,80,59,21,64,40,24,FMLA,56,73.75
+EMP0128,Employee 128,Operations,Front Desk Supervisor,1,Movement Centennial,2024-01-17,44000,2.0,44000,1.0,PPO Standard,Dental Basic,Waived,True,5,1,450,45,0,495,5940,120,108,12,64,30,34,None,0,90.0
+EMP0129,Employee 129,Operations,Front Desk Staff,0,Movement Centennial,2025-06-09,32500,0.6,35000,0.93,PPO Premium,Waived,Waived,True,7,3,650,0,0,650,7800,80,61,19,64,4,60,None,0,76.25
+EMP0130,Employee 130,Operations,Front Desk Staff,0,Movement Centennial,2020-06-19,32000,5.6,35000,0.91,Waived,Dental Basic,Waived,False,0,1,0,45,0,45,540,200,180,20,64,13,51,None,0,90.0
+EMP0131,Employee 131,Operations,Front Desk Staff,0,Movement Centennial,2025-08-11,33000,0.4,35000,0.94,PPO Standard,Dental Basic,Waived,True,4,2,450,45,0,495,5940,80,61,19,64,33,31,None,0,76.25
+EMP0132,Employee 132,Operations,Front Desk Staff,0,Movement Centennial,2021-02-22,37000,4.9,35000,1.06,PPO Premium,Dental Plus,Waived,False,0,3,650,75,0,725,8700,160,144,16,64,41,23,None,0,90.0
+EMP0133,Employee 133,Operations,Front Desk Staff,0,Movement Centennial,2022-04-10,34500,3.8,35000,0.99,PPO Standard,Waived,Waived,True,7,4,450,0,0,450,5400,160,104,56,64,24,40,None,0,65.0
+EMP0134,Employee 134,Operations,Front Desk Staff,0,Movement Centennial,2024-03-31,35000,1.8,35000,1.0,HDHP with HSA,Waived,Vision Basic,True,5,1,300,0,15,315,3780,120,110,10,64,1,63,None,0,91.66666666666666
+EMP0135,Employee 135,Climbing,Head Route Setter,2,Movement Centennial,2021-05-05,51500,4.7,58000,0.89,PPO Premium,Dental Plus,Waived,True,6,2,650,75,0,725,8700,160,147,13,64,34,30,None,0,91.875
+EMP0136,Employee 136,Climbing,Route Setter,1,Movement Centennial,2025-07-15,41000,0.5,44000,0.93,PPO Standard,Dental Plus,Vision Basic,True,8,1,450,75,15,540,6480,80,59,21,64,13,51,None,0,73.75
+EMP0137,Employee 137,Climbing,Route Setter,1,Movement Centennial,2023-10-24,46500,2.2,44000,1.06,PPO Premium,Waived,Vision Basic,True,3,2,650,0,15,665,7980,120,99,21,64,23,41,None,0,82.5
+EMP0138,Employee 138,Climbing,Route Setter,1,Movement Centennial,2025-04-15,41500,0.8,44000,0.94,PPO Premium,Dental Basic,Vision Basic,True,5,4,650,45,15,710,8520,80,57,23,64,23,41,None,0,71.25
+EMP0139,Employee 139,Climbing,Route Setter,1,Movement Centennial,2021-11-07,41000,4.2,44000,0.93,PPO Standard,Dental Plus,Waived,True,6,4,450,75,0,525,6300,160,137,23,64,46,18,None,0,85.625
+EMP0140,Employee 140,Fitness,Fitness Instructor,0,Movement Centennial,2024-06-27,40000,1.6,35000,1.14,HDHP with HSA,Dental Basic,Waived,False,0,4,300,45,0,345,4140,120,73,47,64,27,37,None,0,60.83333333333333
+EMP0141,Employee 141,Fitness,Fitness Instructor,0,Movement Centennial,2023-06-10,38000,2.6,35000,1.09,HDHP with HSA,Dental Basic,Waived,True,6,2,300,45,0,345,4140,120,85,35,64,16,48,None,0,70.83333333333334
+EMP0142,Employee 142,Fitness,Fitness Instructor,0,Movement Centennial,2021-10-09,32000,4.3,35000,0.91,PPO Standard,Dental Basic,Vision Basic,False,0,1,450,45,15,510,6120,160,144,16,64,47,17,None,0,90.0
+EMP0143,Employee 143,Fitness,Yoga Teacher,0,Movement Centennial,2025-11-11,38000,0.2,35000,1.09,HDHP with HSA,Dental Basic,Vision Premium,True,5,3,300,45,25,370,4440,80,69,11,64,31,33,FMLA,39,86.25
+EMP0144,Employee 144,Fitness,Yoga Teacher,0,Movement Centennial,2024-11-12,30500,1.2,35000,0.87,Waived,Waived,Vision Basic,True,8,2,0,0,15,15,180,120,100,20,64,46,18,None,0,83.33333333333334
+EMP0145,Employee 145,Fitness,Yoga Teacher,0,Movement Centennial,2020-09-27,33500,5.3,35000,0.96,PPO Standard,Dental Plus,Vision Basic,True,12,2,450,75,15,540,6480,200,186,14,64,46,18,None,0,93.0
+EMP0146,Employee 146,Youth Programs,Youth Program Manager,1,Movement Centennial,2022-11-27,46000,3.1,44000,1.05,PPO Standard,Dental Plus,Vision Basic,True,6,2,450,75,15,540,6480,160,108,52,64,32,32,None,0,67.5
+EMP0147,Employee 147,Youth Programs,ASP Instructor,0,Movement Centennial,2020-12-19,36500,5.1,35000,1.04,HDHP with HSA,Waived,Vision Basic,False,0,1,300,0,15,315,3780,200,146,54,64,3,61,None,0,73.0
+EMP0148,Employee 148,Youth Programs,ASP Instructor,0,Movement Centennial,2023-08-16,34500,2.4,35000,0.99,PPO Standard,Dental Basic,Vision Premium,False,0,2,450,45,25,520,6240,120,104,16,64,42,22,None,0,86.66666666666667
+EMP0149,Employee 149,Youth Programs,Team Coach,1,Movement Centennial,2024-05-21,48000,1.7,44000,1.09,Waived,Waived,Waived,True,4,1,0,0,0,0,0,120,88,32,64,29,35,None,0,73.33333333333333
+EMP0150,Employee 150,Youth Programs,Team Coach,1,Movement Centennial,2021-04-06,38500,4.8,44000,0.88,HDHP with HSA,Dental Plus,Vision Basic,True,5,4,300,75,15,390,4680,160,110,50,64,34,30,None,0,68.75
