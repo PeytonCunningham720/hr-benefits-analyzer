@@ -1,5 +1,7 @@
 # HR Benefits & Compensation Analysis Dashboard
 
+![Executive Dashboard](output/charts/00_executive_dashboard.png)
+
 ## 👋 Hi, My name is Peyton Cunningham!
 
 Thank you for taking the time to review my portfolio project! As someone who is passionate about the intersection of data-driven decision making and HR operations, I created this project to demonstrate the analytical skills I would bring to the **Benefits & Compensation Administrator** role at Movement. 
@@ -47,6 +49,8 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Pay ranges by job title** | Helps identify compression issues or outliers |
 | **Salary vs. tenure trends** | Reveals whether long-tenured employees are being compensated appropriately |
 
+![Compa-Ratio Distribution](output/charts/03_compa_ratio_distribution.png)
+
 **Sample insight:** *We have 2 employees significantly below market rate (compa-ratio < 0.85) who may be retention risks, and our average compa-ratio of 0.99 shows we're paying competitively at market rate.*
 
 ### 2. Benefits Enrollment Analysis
@@ -59,6 +63,8 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Benefits cost per employee** | Supports budgeting and forecasting |
 | **Cost breakdown by department** | Identifies where benefits dollars are going |
 
+![401k Contributions](output/charts/07_401k_contributions.png)
+
 **Sample insight:** *76.7% of employees participate in our 401(k), with an average contribution of 6.0%. Our total annual benefits cost is $830,820 across 150 employees.*
 
 ### 3. Leave & PTO Tracking
@@ -70,6 +76,8 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 | **Leave balance liability** | Unused PTO is a financial liability on the books |
 | **Sick leave patterns** | Can indicate workplace wellness trends |
 | **Extended leave tracking** | Ensures FMLA/disability cases are properly managed |
+
+![PTO Utilization](output/charts/10_pto_utilization.png)
 
 **Sample insight:** *Our total PTO liability is $101,828.85. Movement Boulder has the lowest utilization at 71%—we may want to encourage those team members to take time off.*
 
