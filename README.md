@@ -1,263 +1,230 @@
 # HR Benefits & Compensation Analysis Dashboard
 
-A Python-based analytical tool demonstrating data analysis skills for HR/Benefits Administration roles. This project showcases proficiency in compensation benchmarking, benefits enrollment analysis, and leave tracking — core competencies for Benefits & Compensation Administrator positions.
+## 👋 Hi, My name is Peyton Cunningham!
 
-# MAKE MORE PERSONABLE, EXPLAIN EXCITEMENT, ENVITE HR PERSON IN, MAKE MORE COMMUNICATING A SENSE OF UNDERSTANDING AND WHY EACH STEP WAS DONE, THESE ARE THE THINGS I AM LOOKING FOR IN THIS JOB
+Thank you for taking the time to review my portfolio project! As someone who is passionate about the intersection of data-driven decision making and HR operations, I created this project to demonstrate the analytical skills I would bring to the **Benefits & Compensation Administrator** role at Movement. 
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Portfolio%20Project-orange.svg)
+As a current **Front Desk Supervisor at Movement Golden**, I have a uniquely keen understanding of the operational needs and challenges of our gyms from a first person experience. As an avid climber and current Movement Employee, I have a thorough understanding of the needs and wants of our team.
 
-## 📋 Project Overview
+This position provides an opportunity for me to leverage my understanding of our communiuty, and my technical background to generate robust metrics that will drive data-driven decisions that will best support financial and operational changes that balance the needs of our team and buisness.
 
-This tool analyzes synthetic HR data to provide insights across three key areas:
+### Why I Built This Project
 
-### 1. **Compensation Analysis**
-- Salary benchmarking by department, location, and job level
-- Compa-ratio calculations (salary vs. market midpoint)
-- Pay equity analysis and identification of outliers
-- Salary vs. tenure trend analysis
+As a current active memeber of our team and community, I am deeply connected to Movement's mission to transform lives through climbing, yoga, and fitness, I am excited by the opportunity to support that mission by utilizing my skills in data analytics, critical thinking, and communication. Benefits and compensation administration isn't just about numbers, it's about ensuring **team members feel valued, supported, and fairly compensated** so they can focus on what matters: **creating amazing experiences for members**. 
 
-### 2. **Benefits Enrollment Analysis**
-- Medical, dental, and vision plan enrollment tracking
-- 401(k) participation rates and contribution analysis
-- Benefits cost analysis by department
-- Total cost of benefits per employee
+### The Goals Of This Project
 
-### 3. **Leave & PTO Tracking**
-- PTO utilization rates by department
-- Leave balance liability calculations
-- Sick leave usage patterns
-- Extended leave (FMLA, disability) tracking
-
-## 🎯 Skills Demonstrated
-
-This project demonstrates competencies directly relevant to Benefits & Compensation Administration:
-
-| Skill | Application in Project |
-|-------|----------------------|
-| **Data Analysis** | Pandas for data manipulation, aggregation, and statistical analysis |
-| **HRIS Concepts** | Simulated data structures matching real HRIS systems (like Dayforce) |
-| **Compensation Benchmarking** | Compa-ratio calculations, market midpoint analysis, pay ranges |
-| **Benefits Administration** | Enrollment tracking, cost analysis, participation metrics |
-| **Leave Management** | PTO accruals, utilization tracking, liability calculations |
-| **Data Visualization** | Professional charts for executive reporting |
-| **Reporting** | Automated generation of analytics and exports |
-
-## 📊 Sample Visualizations
-
-The project generates 13 professional visualizations including:
-
-- **Executive Dashboard** — High-level KPIs at a glance
-- **Salary Distribution by Department** — Box plots showing pay ranges
-- **Compa-Ratio Distribution** — Histogram with market benchmarks
-- **401(k) Participation Analysis** — Contribution rate distribution
-- **PTO Utilization by Department** — Identifying under-utilization
-- **Benefits Enrollment Breakdown** — Pie charts for each benefit type
-
-## 🗂️ Project Structure
-
-```
-hr-benefits-analyzer/
-├── src/
-│   └── main.py              # Main analysis script (fully commented)
-├── output/
-│   ├── charts/              # Generated visualizations (PNG)
-│   └── data/                # Exported CSV data files
-├── requirements.txt         # Python dependencies
-├── README.md               # This file
-└── .gitignore              # Git ignore rules
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package manager)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/hr-benefits-analyzer.git
-   cd hr-benefits-analyzer
-   ```
-
-2. **Create a virtual environment (recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Running the Analysis
-
-```bash
-python src/main.py
-```
-
-The script will:
-1. Generate synthetic HR data for 150 employees
-2. Run comprehensive analysis across all three domains
-3. Create 13 professional visualizations
-4. Export data to CSV files
-
-All output files will be saved to the `output/` directory.
-
-## 📈 Sample Output
-
-### Console Output
-```
-======================================================================
-   HR BENEFITS & COMPENSATION ANALYSIS DASHBOARD
-   Portfolio Project for Benefits Administrator Role
-======================================================================
-
-[STEP 1] Generating synthetic HR data...
-  Generated 150 employee records
-  Generated benefits enrollment data
-  Generated leave tracking data
-
-============================================================
-COMPENSATION ANALYSIS
-============================================================
-
---- Salary Statistics by Department ---
-              count      min      max       mean    median       std
-department                                                          
-Climbing         22  37000.0  97500.0   54159.09   47250.0  17543.21
-Facilities       17  33500.0  85000.0   50264.71   43500.0  15876.43
-...
-
---- Compa-Ratio Analysis ---
-Employees below market (compa-ratio < 0.85): 12
-Employees above market (compa-ratio > 1.15): 18
-Average compa-ratio: 1.02
-```
-
-### Generated Files
-
-| File | Description |
-|------|-------------|
-| `00_executive_dashboard.png` | Summary dashboard with key metrics |
-| `01_salary_by_department.png` | Box plot of salaries by department |
-| `02_salary_by_location.png` | Average salary comparison by location |
-| `03_compa_ratio_distribution.png` | Histogram showing market positioning |
-| `04_salary_vs_tenure.png` | Scatter plot with trend analysis |
-| `05_headcount_by_dept_level.png` | Stacked bar of org structure |
-| `06_medical_enrollment.png` | Pie chart of health plan selections |
-| `07_401k_contributions.png` | Distribution of contribution rates |
-| `08_benefits_cost_by_dept.png` | Cost analysis by department |
-| `09_benefits_overview.png` | Multi-chart benefits summary |
-| `10_pto_utilization.png` | PTO usage rates by department |
-| `11_leave_balances.png` | Leave balance distributions |
-| `12_extended_leave.png` | FMLA/disability leave breakdown |
-
-### Data Exports
-
-| File | Description |
-|------|-------------|
-| `employee_data.csv` | Complete employee roster with compensation |
-| `benefits_enrollment.csv` | Benefits elections and costs |
-| `leave_tracking.csv` | PTO and leave balances |
-| `combined_hr_data.csv` | Merged comprehensive dataset |
-
-## 🔧 Customization
-
-### Adjusting Sample Size
-In `main.py`, modify the `num_employees` parameter:
-```python
-employee_df = generate_employee_data(num_employees=500)  # Increase to 500
-```
-
-### Adding New Locations
-Add to the `locations` list and `location_multipliers` dictionary:
-```python
-locations = [
-    ...
-    'Austin, TX',
-    'Seattle, WA'
-]
-
-location_multipliers = {
-    ...
-    'Austin, TX': 1.00,
-    'Seattle, WA': 1.20
-}
-```
-
-### Modifying Salary Ranges
-Adjust the `base_salary_ranges` dictionary:
-```python
-base_salary_ranges = {
-    0: (40000, 50000),   # Entry level
-    1: (50000, 70000),   # Mid-level
-    2: (70000, 100000)   # Senior level
-}
-```
-
-## 💡 Key Concepts Explained
-
-### Compa-Ratio
-A compa-ratio compares an employee's salary to the market midpoint for their role:
-- **< 0.85**: Significantly below market (retention risk)
-- **0.85 - 1.15**: Within competitive range
-- **> 1.15**: Above market (may indicate compression issues)
-
-### PTO Liability
-The financial liability of unused PTO, calculated as:
-```
-PTO Liability = Unused Hours × Hourly Rate
-```
-This is important for budgeting and forecasting.
-
-### Benefits Participation Rate
-The percentage of eligible employees enrolled in a benefit:
-```
-Participation Rate = Enrolled Employees / Total Eligible × 100
-```
-High participation indicates effective benefits communication.
-
-## 🛠️ Technologies Used
-
-- **Python 3.8+** — Core programming language
-- **pandas** — Data manipulation and analysis
-- **NumPy** — Numerical computations
-- **Matplotlib** — Data visualization foundation
-- **Seaborn** — Statistical data visualization
-
-## 📝 Future Enhancements
-
-Potential improvements for this project:
-
-- [ ] Add interactive dashboards using Plotly or Dash
-- [ ] Implement actual salary survey data integration
-- [ ] Add Monte Carlo simulation for benefits cost forecasting
-- [ ] Create database backend for persistent data storage
-- [ ] Build REST API for integration with other HR systems
-- [ ] Add predictive analytics for turnover risk
-
-## 👤 Author
-
-**Peyton Cunningham**
-
-This project was created as a portfolio piece demonstrating analytical and technical skills relevant to Benefits & Compensation Administration roles.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Built with reference to common HRIS data structures
-- Compensation benchmarking methodology based on industry best practices
-- Inspired by real-world HR analytics challenges
+This project showcases how I will approach the core responsibilities outlined in the job description:
+- **Benefits administration** — tracking enrollments, analyzing costs, and ensuring accuracy
+- **Compensation analysis** — benchmarking salaries, calculating compa-ratios, and identifying pay equity issues
+- **Leave management** — monitoring PTO utilization and calculating liability
+- **Data-driven insights** — creating clear visualizations that support decision-making
 
 ---
 
-*This is a portfolio project using synthetic data. No real employee information is used.*
+## What This Project Does
+
+This tool analyzes HR data and **produces easy-to-understand reports and charts**. Essentialy, it is an automated way to answer questions like:
+
+- *"Are we paying competitively compared to the market?"*
+- *"Which departments have the highest benefits costs?"*
+- *"How much unused PTO do we have?"*
+- *"What percentage of employees are enrolled in our 401(k)?"*
+
+**No technical knowledge required to understand the outputs!** The tool generates visual dashboards and clear reports that any HR professional or executive can interpret.
+
+---
+
+## 📊 The Three Areas of Analysis
+
+### 1. Compensation Analysis
+**What it answers:** Are we paying our people fairly and competitively?
+
+| What I Analyze | Why It Matters |
+|----------------|----------------|
+| **Salary by department & location** | Ensures pay is consistent and accounts for cost of living differences |
+| **Compa-ratios** | Shows how each employee's pay compares to market rates (critical for retention) |
+| **Pay ranges by job title** | Helps identify compression issues or outliers |
+| **Salary vs. tenure trends** | Reveals whether long-tenured employees are being compensated appropriately |
+
+**Sample insight:** *"We have 3 employees significantly below market rate (compa-ratio < 0.85) who may be retention risks."*
+
+### 2. Benefits Enrollment Analysis
+**What it answers:** How are employees using their benefits, and what does it cost us?
+
+| What I Analyze | Why It Matters |
+|----------------|----------------|
+| **Medical/dental/vision enrollment rates** | Shows plan popularity and helps with renewal negotiations |
+| **401(k) participation & contribution rates** | Indicates retirement readiness and benefits communication effectiveness |
+| **Benefits cost per employee** | Supports budgeting and forecasting |
+| **Cost breakdown by department** | Identifies where benefits dollars are going |
+
+**Sample insight:** *"76.7% of employees participate in our 401(k), with an average contribution of 6%. We could improve retirement outcomes by promoting higher contribution rates."*
+
+### 3. Leave & PTO Tracking
+**What it answers:** How are employees using time off, and what's our liability?
+
+| What I Analyze | Why It Matters |
+|----------------|----------------|
+| **PTO utilization rates** | Low utilization may signal burnout risk or staffing issues |
+| **Leave balance liability** | Unused PTO is a financial liability on the books |
+| **Sick leave patterns** | Can indicate workplace wellness trends |
+| **Extended leave tracking** | Ensures FMLA/disability cases are properly managed |
+
+**Sample insight:** *"Our total PTO liability is $161,007.93. The Climbing department has the lowest utilization at 73%—we may want to encourage those team members to take time off."*
+
+---
+
+## 📈 Sample Visualizations
+
+The project **automatically** generates **13 professional charts** that are ready for executive presentations. Here are a few highlights:
+
+### Executive Dashboard
+A one-page summary showing key metrics at a glance: total headcount, average salary, average tenure, and benefits enrollment rate.
+
+### Salary Distribution by Department
+Box plots that show the range, median, and outliers for each department—making it easy to spot pay equity issues.
+
+### Compa-Ratio Distribution
+A histogram showing how employees are distributed relative to market rates, with clear markers for "below market," "at market," and "above market."
+
+### 401(k) Contribution Rates
+Shows the distribution of contribution percentages, helping identify opportunities to improve **retirement readiness**.
+
+### PTO Utilization by Department
+Color-coded bars (red/yellow/green) that instantly show which departments may need encouragement to use their time off.
+
+---
+
+## 🔧 How I Built This (For the Technically Curious)
+
+I used **Python**, a widely-used programming language for data analysis. The code is thoroughly commented to explain every step, over 1,500 lines with **explanations of what each section does and why**.
+
+### Key Technologies
+| Tool | What It Does |
+|------|--------------|
+| **Python** | The programming language that runs everything |
+| **pandas** | Handles data manipulation (similar to Excel but more powerful) |
+| **matplotlib & seaborn** | Creates the charts and visualizations |
+| **NumPy** | Performs mathematical calculations |
+
+### Why These Choices Matter for the Role
+- **Dayforce compatibility:** The data structures I created mirror what you'd see in HRIS systems like Dayforce
+- **Scalability:** This approach can handle hundreds or thousands of employees
+- **Repeatability:** Run the same analysis monthly or quarterly with updated data
+- **Accuracy:** Automated calculations eliminate manual errors
+
+---
+
+## 🚀 How to Run This Project
+
+### For Non-Technical Users
+The charts and sample outputs are already included in the `output/` folder, you can view them without running any code!
+
+Just open the `output/charts/` folder to see all 13 visualizations.
+
+### For Technical Users
+If you'd like to run the analysis yourself:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/PeytonCunningham720/hr-benefits-analyzer.git
+cd hr-benefits-analyzer
+
+# 2. Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the analysis
+python src/main.py
+```
+
+The script will generate fresh data, run all analyses, and save outputs to the `output/` folder.
+
+---
+
+## 📁 What's in This Project
+
+```
+hr-benefits-analyzer/
+│
+├── src/
+│   └── main.py              # The main analysis script (fully commented!)
+│
+├── output/
+│   ├── charts/              # 13 PNG visualizations ready for presentations
+│   │   ├── 00_executive_dashboard.png
+│   │   ├── 01_salary_by_department.png
+│   │   ├── 02_salary_by_location.png
+│   │   └── ... (10 more charts)
+│   │
+│   └── data/                # Raw data exports (CSV files)
+│       ├── employee_data.csv
+│       ├── benefits_enrollment.csv
+│       ├── leave_tracking.csv
+│       └── combined_hr_data.csv
+│
+├── requirements.txt         # List of Python packages needed
+├── README.md               # This file!
+├── LICENSE                 # Open source license
+└── .gitignore              # Tells Git which files to ignore
+```
+
+---
+
+## 💡 Key HR Concepts Demonstrated
+
+### Compa-Ratio
+A compa-ratio measures how an employee's salary compares to the market midpoint for their role:
+- **Below 0.85** = Significantly underpaid (retention risk!)
+- **0.85 to 1.15** = Competitive range
+- **Above 1.15** = Above market (watch for compression)
+
+*This is exactly the kind of analysis mentioned in the job description under "Benchmark jobs and pay against survey data."*
+
+### PTO Liability
+When employees don't use their PTO, that unused time is a financial liability. This project calculates:
+```
+PTO Liability = Unused Hours × Employee's Hourly Rate
+```
+*Understanding this helps with budgeting and identifying departments that may need to encourage time off.*
+
+### Benefits Participation Rate
+Higher participation indicates effective benefits communication and valued offerings. This project tracks enrollment across all benefit types.
+
+---
+
+## 🔮 Future Enhancements
+
+If I were to continue developing this project, here's what I'd add:
+
+| Enhancement | Business Value |
+|-------------|----------------|
+| **Interactive dashboards** | Allow HR leaders to filter and explore data themselves |
+| **Salary survey integration** | Connect to real market data sources |
+| **Predictive analytics** | Forecast benefits costs and identify turnover risk |
+| **Automated reporting** | Schedule weekly/monthly reports via email |
+| **HRIS integration** | Pull data directly from Dayforce or similar systems |
+
+---
+
+## 🤝 Let's Connect!
+
+I'm excited about the opportunity to bring these analytical skills to Movement's HR team. Benefits and compensation work is deeply meaningful, it directly impacts team members' financial wellness and sense of being valued **(a current topic of discussion within the Golden gym and others)**.
+
+I'd love to discuss how my skills could support Movement's mission of growth, connection, and integrity.
+
+**Peyton Cunningham**
+
+---
+
+## 📝 A Note on the Data
+
+This project uses **synthetic (fake) data** that I generated to demonstrate the analysis capabilities. No real employee information was used. The data is designed to be realistic and representative of what you might see in an actual climbing gym organization with ~150 employees across multiple locations.
+
+---
+
+*Thank you for reviewing my project! I hope it demonstrates not just my technical abilities, but my understanding of what truly matters in benefits and compensation administration: **supporting the people who make Movement great**.*
