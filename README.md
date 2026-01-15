@@ -2,6 +2,8 @@
 
 A Python-based analytical tool demonstrating data analysis skills for HR/Benefits Administration roles. This project showcases proficiency in compensation benchmarking, benefits enrollment analysis, and leave tracking — core competencies for Benefits & Compensation Administrator positions.
 
+# MAKE MORE PERSONABLE, EXPLAIN EXCITEMENT, ENVITE HR PERSON IN, MAKE MORE COMMUNICATING A SENSE OF UNDERSTANDING AND WHY EACH STEP WAS DONE, THESE ARE THE THINGS I AM LOOKING FOR IN THIS JOB
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Project-orange.svg)
