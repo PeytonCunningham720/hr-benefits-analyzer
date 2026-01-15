@@ -96,7 +96,7 @@ Color-coded bars (red/yellow/green) that instantly show which departments may ne
 
 ---
 
-## 🔧 How I Built This (For the Technically Curious)
+## 🔧 How I Built This
 
 I used **Python**, a widely-used programming language for data analysis. The code is thoroughly commented to explain every step, over 1,500 lines with **explanations of what each section does and why**.
 
