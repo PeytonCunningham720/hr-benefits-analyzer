@@ -49,7 +49,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 ![Compa-Ratio Distribution](output/charts/03_compa_ratio_distribution.png)
 
-**Sample insight:** *We have 2 employees significantly below market rate (compa-ratio < 0.85) who may be retention risks, and our average compa-ratio of 0.99 shows we're paying competitively at market rate.*
+**Sample insight:** *We have 2 employees significantly below market rate (compa-ratio < 0.85) who may be retention risks, and our average compa-ratio of 0.99 shows we're paying competitively at market rate.* **(Update to remove hard coded statistics)**
 
 ### 2. Benefits Enrollment Analysis
 **What it answers:** How are employees using their benefits, and what does it cost us?
