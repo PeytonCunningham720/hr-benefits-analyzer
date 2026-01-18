@@ -49,7 +49,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 ![Compa-Ratio Distribution](output/charts/03_compa_ratio_distribution.png)
 
-**Sample insight:** *We have {{below_market_count}} employee(s) significantly below market rate (compa-ratio < 0.85) who may be retention risks, and our average compa-ratio of {{avg_compa_ratio}} shows {{market_assessment}}.*
+**Sample insight:** *We have 2 employee(s) significantly below market rate (compa-ratio < 0.85) who may be retention risks, and our average compa-ratio of 0.99 shows we're paying competitively at market rate.*
 
 ### 2. Benefits Enrollment Analysis
 **What it answers:** How are employees using their benefits, and what does it cost us?
@@ -63,7 +63,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 ![401k Contributions](output/charts/07_401k_contributions.png)
 
-**Sample insight:** *{{participation_rate}}% of employees participate in our 401(k), with an average contribution of {{avg_contribution}}%. Our total annual benefits cost is ${{total_annual_cost}} across {{employee_count}} employees.*
+**Sample insight:** *76.7% of employees participate in our 401(k), with an average contribution of 6.0%. Our total annual benefits cost is $830,820 across 150 employees.*
 
 ### 3. Leave & PTO Tracking
 **What it answers:** How are employees using time off, and what's our liability?
@@ -77,7 +77,7 @@ This tool analyzes HR data and **produces easy-to-understand reports and charts*
 
 ![PTO Utilization](output/charts/10_pto_utilization.png)
 
-**Sample insight:** *Our total PTO liability is ${{total_pto_liability}}. {{lowest_util_gym}} has the lowest utilization at {{lowest_util_pct}}%, we may want to encourage those team members to take time off.*
+**Sample insight:** *Our total PTO liability is $101,828.85. Boulder has the lowest utilization at 71%, we may want to encourage those team members to take time off.*
 
 ---
 

@@ -542,7 +542,10 @@ def analyze_compensation(employee_df):
         'location_stats': location_stats,
         'below_market': below_market,
         'above_market': above_market,
-        'title_ranges': title_ranges
+        'title_ranges': title_ranges,
+        # NEW: Keys needed for README template replacement
+        'below_market_count': len(below_market),
+        'avg_compa_ratio': employee_df['compa_ratio'].mean()
     }
 
 
@@ -618,7 +621,10 @@ def analyze_benefits(benefits_df, employee_df):
         'medical_enrollment': medical_enrollment,
         'participation_rate': participation_rate,
         'avg_contribution': avg_contribution,
-        'dept_costs': dept_costs
+        'dept_costs': dept_costs,
+        # NEW: Keys needed for README template replacement
+        'total_annual_cost': total_annual_cost,
+        'employee_count': len(benefits_df)
     }
 
 
@@ -708,11 +714,18 @@ def analyze_leave(leave_df, employee_df):
     print("\n--- PTO Utilization by Gym Location ---")
     print(gym_utilization.to_string())
     
+    # NEW: Find lowest utilization gym for README template
+    lowest_util_gym = gym_utilization['utilization_pct'].idxmin()
+    lowest_util_pct = gym_utilization['utilization_pct'].min()
+    
     return {
         'avg_utilization': avg_utilization,
         'total_liability': total_liability,
         'extended_leaves': extended_leaves,
-        'gym_utilization': gym_utilization
+        'gym_utilization': gym_utilization,
+        # NEW: Keys needed for README template replacement
+        'lowest_util_gym': lowest_util_gym,
+        'lowest_util_pct': lowest_util_pct
     }
 
 
@@ -1434,6 +1447,75 @@ def export_data(employee_df, benefits_df, leave_df):
 
 
 # ============================================================================
+# ADD THIS FUNCTION TO main.py (before the main() function)
+# ============================================================================
+
+def update_readme_insights(comp_results, benefits_results, leave_results):
+    """
+    Update the README.md file by replacing {{template_variables}} with 
+    actual computed values from the current data run.
+    """
+    
+    print("\n" + "="*60)
+    print("UPDATING README WITH DYNAMIC INSIGHTS")
+    print("="*60)
+    
+    readme_path = 'README.md'
+    
+    if not os.path.exists(readme_path):
+        print(f"  Warning: {readme_path} not found. Skipping README update.")
+        return
+    
+    with open(readme_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Calculate values for template variables
+    below_market_count = comp_results['below_market_count']
+    avg_compa_ratio = f"{comp_results['avg_compa_ratio']:.2f}"
+    
+    if comp_results['avg_compa_ratio'] < 0.95:
+        market_assessment = "we're paying slightly below market rate"
+    elif comp_results['avg_compa_ratio'] > 1.05:
+        market_assessment = "we're paying above market rate"
+    else:
+        market_assessment = "we're paying competitively at market rate"
+    
+    participation_rate = f"{benefits_results['participation_rate']:.1f}"
+    avg_contribution = f"{benefits_results['avg_contribution']:.1f}"
+    total_annual_cost = f"{benefits_results['total_annual_cost']:,.0f}"
+    employee_count = benefits_results['employee_count']
+    
+    total_pto_liability = f"{leave_results['total_liability']:,.2f}"
+    lowest_util_gym = leave_results['lowest_util_gym'].replace('Movement ', '')
+    lowest_util_pct = f"{leave_results['lowest_util_pct']:.0f}"
+    
+    # Replace all {{template_variables}} with actual values
+    replacements = {
+        '{{below_market_count}}': str(below_market_count),
+        '{{avg_compa_ratio}}': avg_compa_ratio,
+        '{{market_assessment}}': market_assessment,
+        '{{participation_rate}}': participation_rate,
+        '{{avg_contribution}}': avg_contribution,
+        '{{total_annual_cost}}': total_annual_cost,
+        '{{employee_count}}': str(employee_count),
+        '{{total_pto_liability}}': total_pto_liability,
+        '{{lowest_util_gym}}': lowest_util_gym,
+        '{{lowest_util_pct}}': lowest_util_pct,
+    }
+    
+    for template_var, value in replacements.items():
+        content = content.replace(template_var, value)
+    
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"  Updated: {readme_path}")
+    print(f"\n  Replaced template variables:")
+    for template_var, value in replacements.items():
+        print(f"    {template_var} → {value}")
+
+
+# ============================================================================
 # MAIN EXECUTION
 # ============================================================================
 
@@ -1489,6 +1571,9 @@ def main():
     
     print("\n[STEP 4] Exporting data files...")
     export_data(employee_df, benefits_df, leave_df)
+
+    print("\n[STEP 5] Updating README with current statistics...")
+    update_readme_insights(comp_results, benefits_results, leave_results)
     
     # -------------------------------------------------------------------------
     # Completion Summary
