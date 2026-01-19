@@ -167,7 +167,7 @@ hr-benefits-analyzer/
 │   │   ├── 02_salary_by_location.png
 │   │   └── ... (10 more charts)
 │   │
-│   └── data/                # Raw data exports (CSV files)
+│   └── data/                # Raw data exports generated randomly (CSV files)
 │       ├── employee_data.csv
 │       ├── benefits_enrollment.csv
 │       ├── leave_tracking.csv
