@@ -161,7 +161,7 @@ hr-benefits-analyzer/
 │   └── main.py              # The main analysis script (fully commented!)
 │
 ├── output/
-│   ├── charts/              # 13 PNG visualizations ready for presentations
+│   ├── charts/              # 13 PNG visualizations ready for presentations (PNG files)
 │   │   ├── 00_executive_dashboard.png
 │   │   ├── 01_salary_by_department.png
 │   │   ├── 02_salary_by_location.png
