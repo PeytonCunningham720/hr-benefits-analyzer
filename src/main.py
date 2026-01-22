@@ -3,7 +3,7 @@ HR Benefits & Compensation Analysis Dashboard
 ==============================================
 A Python project demonstrating data analysis skills for HR/Benefits Administration.
 This tool analyzes compensation data, benefits enrollment, and leave tracking
-for Movement Climbing's Colorado gyms.
+for Movement's Colorado gyms.
 
 Author: Peyton Cunningham
 Created for: Benefits & Compensation Administrator Portfolio Project
